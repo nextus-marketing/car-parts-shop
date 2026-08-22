@@ -1,0 +1,118 @@
+/* ================================
+   Desktop Call Box
+================================ */
+.header-call-box {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background: #074db1;
+    border-radius: 6px;
+    min-width: 350px;
+}
+
+.header-call-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.header-call-content .call-small-text {
+    color: #fff;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.header-call-content h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.call-now-btn {
+    margin-left: auto;
+    background: #fff;
+    color: #074db1;
+    padding: 9px 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.call-now-btn:hover {
+    background: #222;
+    color: #fff;
+}
+
+
+/* ================================
+   Mobile Call Button
+================================ */
+.mobile-call-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #074db1;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.mobile-call-btn:hover {
+    color: #fff;
+    background: #053b8a;
+}
+
+
+/* ================================
+   Mobile Only
+================================ */
+@media (max-width: 767px) {
+
+    /* Hide desktop call box */
+    .header-call-box {
+        display: none !important;
+    }
+
+    /* Hide desktop wrapper containing call box */
+    .header-search-form-box:has(.header-call-box) {
+        display: none !important;
+    }
+
+    /* Show mobile call button */
+    .mobile-call-btn {
+        display: inline-flex !important;
+    }
+
+    /* Mobile wrapper */
+    .header-search-form-box:has(.mobile-call-btn) {
+        display: block;
+    }
+}
+
+
+/* ================================
+   Desktop Only
+================================ */
+@media (min-width: 768px) {
+
+    /* Hide mobile call button wrapper */
+    .header-search-form-box:has(.mobile-call-btn) {
+        display: none !important;
+    }
+
+}
+
+.main-menu .nav-menu-wrapper>ul {
+    align-items: center;
+    display: inline-flex;
+    gap: 40px;
+}
