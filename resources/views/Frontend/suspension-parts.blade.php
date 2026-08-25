@@ -31,7 +31,7 @@
                     <!-- Suspension Parts Image Start -->
                     <div class="about-us-image">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/my-img/transmission-part.jpg" alt="">
+                            <img src="/frontend/images/my-img/main/suspension.jpg" alt="">
                         </figure>
                     </div>
                     <!-- Suspension Parts Image End -->
