@@ -2850,7 +2850,7 @@ header.main-header .header-sticky.active {
 .about-us-image figure img {
 	width: 100%;
 	height: 100%;
-	aspect-ratio: 1 / 0.698;
+	/* aspect-ratio: 1 / 0.698; */
 	object-fit: cover;
 	border-radius: 20px;
 }

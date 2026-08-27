@@ -100,13 +100,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/bumpers.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/seats.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Seats</a></h2>
+                                <h2><a href="/interior-parts/seats">Seats</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
@@ -119,13 +119,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/car_fenders.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/seat_belt.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Seat Belts</a></h2>
+                                <h2><a href="/interior-parts/seat-belts/">Seat Belts</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -137,13 +137,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/hood.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/car_center_console.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Center Console</a></h2>
+                                <h2><a href="/interior-parts/center-console/">Center Console</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -155,13 +155,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/car_doors.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/sun_visor.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Sun Visor</a></h2>
+                                <h2><a href="/interior-parts/sun-visor/">Sun Visor</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Mirrors</a></h2>
+                                <h2><a href="/interior-parts/mirrors/">Mirrors</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -191,13 +191,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/car_grilles.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/air_bag.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Air Bag</a></h2>
+                                <h2><a href="/interior-parts/air-bag/">Air Bag</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -209,13 +209,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/my-img/main/car-fender-flares.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/sterring_wheel.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Car Steering</a></h2>
+                                <h2><a href="/interior-parts/car-steering/">Car Steering</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>

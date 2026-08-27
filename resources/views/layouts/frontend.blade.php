@@ -378,7 +378,7 @@
                                                     <div class="mega-menu-item-image">
                                                         <a href="/engine-parts">
                                                             <figure class="image-anime">
-                                                                <img src="/frontend/images/mega-menu-item-image-1.jpg"
+                                                                <img src="/frontend/images/my-img/engine-menu.avif"
                                                                     alt="">
                                                             </figure>
                                                         </a>
@@ -388,7 +388,7 @@
                                                     <!-- Mega Menu Item Content Start -->
                                                     <div class="mega-menu-item-content">
                                                         <h2><a href="/engine-parts">Engine Parts</a></h2>
-                                                        <p>Premium component for smooth vehicle operation.</p>
+                                                        <p>Premium components for reliable engine performance and smooth vehicle operation.</p>
                                                     </div>
                                                     <!-- Mega Menu Item Content End -->
                                                 </div>
@@ -400,7 +400,7 @@
                                                     <div class="mega-menu-item-image">
                                                         <a href="/transmission-parts">
                                                             <figure class="image-anime">
-                                                                <img src="/frontend/images/mega-menu-item-image-2.jpg"
+                                                                <img src="/frontend/images/my-img/transmission-menu.webp"
                                                                     alt="">
                                                             </figure>
                                                         </a>
@@ -410,7 +410,7 @@
                                                     <!-- Mega Menu Item Content Start -->
                                                     <div class="mega-menu-item-content">
                                                         <h2><a href="/transmission-parts">Transmission Parts</a></h2>
-                                                        <p>Reliable stopping power for every drive enhanced safety.</p>
+                                                        <p>Quality components for smooth gear shifting, reliable performance, and enhanced driving comfort.</p>
                                                     </div>
                                                     <!-- Mega Menu Item Content End -->
                                                 </div>
@@ -432,6 +432,7 @@
                                                         <span>-special offer-</span>
                                                         <h2>Big Sale</h2>
                                                         <h3>35% Off</h3>
+                                                         <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                                                     </div>
                                                     <!-- Mega Menu Item Content End -->
                                                 </div>
@@ -497,10 +498,10 @@
                         <!-- Footer Social Links Start  -->
                         <div class="footer-social-links">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://in.pinterest.com/carspartshop/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="https://twitter.com/CarspartShop" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/people/Cars-Part-Shop/100086937047143/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/carspartshop/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- Footer Social Links End  -->
@@ -526,14 +527,14 @@
 
                         <!-- Footer Links Start -->
                         <div class="footer-links">
-                            <h2>Categories</h2>
+                            <h2>Find By Parts</h2>
                             <ul>
-                                <li><a href="#0">Engine Parts</a></li>
-                                <li><a href="#0">Brake System</a></li>
-                                <li><a href="#0">Suspension</a></li>
-                                <li><a href="#0">Electrical Parts</a></li>
-                                <li><a href="#0">Car Accessories</a></li>
-                                <li><a href="#0">Tools & Equipment</a></li>
+                                <li><a href="/engine-parts">Engine Parts</a></li>
+                                <li><a href="/transmission-parts">Transmission Parts</a></li>
+                                <li><a href="/suspension-parts">Suspension Parts</a></li>
+                                <li><a href="/electrical-parts">Electrical Parts</a></li>
+                                <li><a href="/exterior-parts">Exterior Parts</a></li>
+                                <li><a href="/interior-parts">Interior Parts</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -547,8 +548,14 @@
                                 <ul>
                                     <li><img src="/frontend/images/icon-mail-accent.svg" alt=""><a
                                             href="mailto:support@carspartshop.com">support@carspartshop.com</a></li>
+                                            <li><img src="/frontend/images/icon-mail-accent.svg" alt=""><a
+                                            href="mailto:sales@carspartshop.com">sales@carspartshop.com</a></li>
                                     <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
                                             href="tel:+18556134411">+1 (855) 613-4411</a></li>
+                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
+                                            href="tel:+18883707485">+1 (888) 370-7485</a></li>
+                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
+                                            href="tel:+18883709806">+1 (888) 370-9806</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Newsletter Form End -->
@@ -562,7 +569,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Text Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2026 All Rights Reserved.</p>
+                        <p>Copyright © 2026 carspartshop |  All Rights Reserved.</p>
                     </div>
                     <!-- Footer Copyright Text End -->
                 </div>

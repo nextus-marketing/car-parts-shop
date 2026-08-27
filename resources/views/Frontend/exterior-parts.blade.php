@@ -106,7 +106,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Bumpers</a></h2>
+                                <h2><a href="/exterior-parts/bumpers/">Bumpers</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Fenders</a></h2>
+                                <h2><a href="/exterior-parts/fenders">Fenders</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Hood</a></h2>
+                                <h2><a href="/exterior-parts/hood/">Hood</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -161,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Doors</a></h2>
+                                <h2><a href="/exterior-parts/doors/">Doors</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -179,7 +179,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Mirrors</a></h2>
+                                <h2><a href="/exterior-parts/mirrors/">Mirrors</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -197,7 +197,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Grilles</a></h2>
+                                <h2><a href="/exterior-parts/grilles/">Grilles</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Fender Flare</a></h2>
+                                <h2><a href="/exterior-parts/fender-flare">Fender Flare</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -233,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Wheel Hub</a></h2>
+                                <h2><a href="/exterior-parts/wheel-hub">Wheel Hub</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -250,7 +250,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Wheel Rim</a></h2>
+                                <h2><a href="/exterior-parts/wheel-rim">Wheel Rim</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>

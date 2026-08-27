@@ -153,7 +153,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Performance Brake Pads</a></h2>
+                                <h2><a href="tel:+18556134411">Engine Control Unit (ECU)</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
@@ -172,7 +172,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Twin Motorcycle Engine</a></h2>
+                                <h2><a href="tel:+18556134411">Rocker Arms Assembly</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Independent Suspension</a></h2>
+                                <h2><a href="tel:+18556134411">Turbocharger</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411"> Electrical & Battery</a></h2>
+                                <h2><a href="tel:+18556134411"> Alternator</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -244,7 +244,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Tires & Suspension</a></h2>
+                                <h2><a href="tel:+18556134411">Starter Solenoid/Relay</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -262,7 +262,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Tools & Equipment</a></h2>
+                                <h2><a href="tel:+18556134411">Electric Motor</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -280,7 +280,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Alloy Wheel Set</a></h2>
+                                <h2><a href="tel:+18556134411">Suspension Control Arm</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -333,7 +333,7 @@
                             <div class="essential-auto-part-info-box">
                                 <h3>Special Auto Parts</h3>
                                 <ul>
-                                    <li>Up to 30% OFF on selected parts</li>
+                                    <li>Up to 35% OFF on selected parts</li>
                                     <li>High performance with trusted quality</li>
                                     <li>Fast shipping across all orders</li>
                                 </ul>
@@ -354,7 +354,7 @@
                                     </a>
                                 </div>
                                 <div class="essential-auto-parts-item-title">
-                                    <h3><a href="tel:+18556134411">Batteries & Electrical</a></h3>
+                                    <h3><a href="tel:+18556134411">Batteries & Electrical Parts</a></h3>
                                 </div>
                             </div>
                             <!-- Essential Auto Parts Item End -->
@@ -369,7 +369,7 @@
                                     </a>
                                 </div>
                                 <div class="essential-auto-parts-item-title">
-                                    <h3><a href="tel:+18556134411">Car Accessories</a></h3>
+                                    <h3><a href="tel:+18556134411">Interior Parts</a></h3>
                                 </div>
                             </div>
                             <!-- Essential Auto Parts Item End -->
@@ -533,7 +533,7 @@
                         <div class="product-item wow fadeInUp">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="#0">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/product-image-9.jpg" alt="">
                                         </figure>
@@ -542,7 +542,7 @@
                                 
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="#0">Rear Brake Disc Rotor</a></h2>
+                                <h2><a href="tel:+18556134411">Steering Wheel</a></h2>
                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -552,7 +552,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="#0">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/product-image-10.jpg" alt="">
                                         </figure>
@@ -560,7 +560,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="#0">Rear Brake Disc Rotor</a></h2>
+                                <h2><a href="tel:+18556134411">Side Mirror</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -570,7 +570,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="#0">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/product-image-11.jpg" alt="">
                                         </figure>
@@ -578,7 +578,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="#0">Engine Oil Filter Pack</a></h2>
+                                <h2><a href="tel:+18556134411">LED Headlight Bulb Set</a></h2>
                                  <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -588,7 +588,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="#0">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/product-image-12.jpg" alt="">
                                         </figure>
@@ -596,7 +596,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="#0">Performance Air Filter</a></h2>
+                                <h2><a href="tel:+18556134411">AC Compressor Pulley</a></h2>
                                  <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>

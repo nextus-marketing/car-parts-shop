@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Alternator</a></h2>
+                                <h2><a href="/electrical-parts/alternator">Alternator</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Starter</a></h2>
+                                <h2><a href="/electrical-parts/starter">Starter</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Ignition Switch</a></h2>
+                                <h2><a href="/electrical-parts/ignition-switch">Ignition Switch</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Fuse Box</a></h2>
+                                <h2><a href="/electrical-parts/fuse-box">Fuse Box</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Instrument Cluster</a></h2>
+                                <h2><a href="/electrical-parts/instrument-cluster">Instrument Cluster</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Wiper Motor</a></h2>
+                                <h2><a href="/electrical-parts/wiper-motor">Wiper Motor</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Window Motor Regulator</a></h2>
+                                <h2><a href="/electrical-parts/window-motor-regulator">Window Motor Regulator</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Cd Player Radio</a></h2>
+                                <h2><a href="/electrical-parts/cd-player-radio">Cd Player Radio</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -252,7 +252,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Tail Light</a></h2>
+                                <h2><a href="/electrical-parts/tail-light">Tail Light</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Headlight</a></h2>
+                                <h2><a href="/electrical-parts/headlight">Headlight</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -288,7 +288,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Fog Lamps</a></h2>
+                                <h2><a href="/electrical-parts/fog-lamps">Fog Lamps</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -306,7 +306,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">ABS Unit</a></h2>
+                                <h2><a href="/electrical-parts/abs-unit">ABS Unit</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>

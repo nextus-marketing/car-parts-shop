@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Shock Absorber</a></h2>
+                                <h2><a href="/suspension-parts/shock-absorber">Shock Absorber</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
@@ -127,7 +127,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Rack Pinion</a></h2>
+                                <h2><a href="/suspension-parts/rack-pinion">Rack Pinion</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Control Arms</a></h2>
+                                <h2><a href="/suspension-parts/control-arms">Control Arms</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Brake Caliper Rotors</a></h2>
+                                <h2><a href="/suspension-parts/brake-caliper-rotors">Brake Caliper Rotors</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Power Steering Pump</a></h2>
+                                <h2><a href="/suspension-parts/power-steering-pump">Power Steering Pump</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Steering Column</a></h2>
+                                <h2><a href="/suspension-parts/steering-column">Steering Column</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Strut</a></h2>
+                                <h2><a href="/suspension-parts/strut">Strut</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
