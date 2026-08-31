@@ -39,225 +39,428 @@
     <link href="/frontend/css/my.css" rel="stylesheet" media="screen">
 
     <style>
-        /* Floating Call Button */
-        .floating-call-button {
-            position: fixed;
-            bottom: 30px;
-            left: 30px;
-            background-color: #074db1;
-            color: white;
-            width: 70px;
-            height: 70px;
+        /* Floating Call Button (unique class to avoid theme CSS conflicts) */
+        .cps-floating-call-btn {
+            position: fixed !important;
+            bottom: 30px !important;
+            left: 30px !important;
+            width: auto !important;
+            height: 62px !important;
+            background: linear-gradient(135deg, #2f6bf0 0%, #1a4fc4 100%) !important;
+            color: #ffffff !important;
+            padding: 0 22px 0 0 !important;
+            border-radius: 50px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 12px !important;
+            text-decoration: none !important;
+            box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45) !important;
+            transition: all 0.3s ease !important;
+            z-index: 999 !important;
+            animation: cps-pulse-ring 2s infinite !important;
+        }
+
+        .cps-floating-call-btn .cps-call-icon-circle {
+            flex-shrink: 0;
+            width: 62px;
+            height: 62px;
             border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.18);
             display: flex;
             align-items: center;
             justify-content: center;
-            text-decoration: none;
-            box-shadow: 0 4px 15px rgba(7, 77, 177, 0.4);
-            transition: all 0.3s ease;
-            z-index: 999;
-            animation: pulse-ring 2s infinite;
         }
 
-        .floating-call-button:hover {
-            background-color: #053a8c;
-            box-shadow: 0 6px 20px rgba(7, 77, 177, 0.6);
-            transform: scale(1.1);
-            text-decoration: none;
-            color: white;
+        .cps-floating-call-btn .cps-call-icon-circle i {
+            font-size: 22px;
+            color: #ffffff !important;
         }
 
-        .floating-call-button i {
-            font-size: 28px;
+        .cps-floating-call-btn .cps-call-number-text {
+            display: inline-block !important;
+            font-size: 17px;
+            font-weight: 700;
+            white-space: nowrap;
+            letter-spacing: 0.01em;
+            color: #ffffff !important;
         }
 
-        @keyframes pulse-ring {
+        .cps-floating-call-btn:hover {
+            box-shadow: 0 8px 26px rgba(26, 79, 196, 0.6) !important;
+            transform: scale(1.05);
+            text-decoration: none !important;
+            color: #ffffff !important;
+        }
+
+        @keyframes cps-pulse-ring {
             0% {
-                box-shadow: 0 4px 15px rgba(7, 77, 177, 0.4);
+                box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45);
             }
             50% {
-                box-shadow: 0 4px 25px rgba(7, 77, 177, 0.6);
+                box-shadow: 0 6px 28px rgba(26, 79, 196, 0.65);
             }
             100% {
-                box-shadow: 0 4px 15px rgba(7, 77, 177, 0.4);
+                box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45);
             }
         }
 
-        /* Special Offer Popup Overlay */
+        /* Floating Call Button — Responsive */
+        @media (max-width: 480px) {
+            .cps-floating-call-btn {
+                height: 52px !important;
+                bottom: 18px !important;
+                left: 18px !important;
+                padding-right: 16px !important;
+                gap: 10px !important;
+            }
+
+            .cps-floating-call-btn .cps-call-icon-circle {
+                width: 52px;
+                height: 52px;
+            }
+
+            .cps-floating-call-btn .cps-call-icon-circle i {
+                font-size: 18px;
+            }
+
+            .cps-floating-call-btn .cps-call-number-text {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .cps-floating-call-btn .cps-call-number-text {
+                display: none !important; /* icon-only on very small screens */
+            }
+
+            .cps-floating-call-btn {
+                padding-right: 0 !important;
+                width: 52px !important;
+                justify-content: center !important;
+            }
+        }
+
+        /* ============================================
+           Special Offer Popup — clean, modern, responsive
+           ============================================ */
         .special-offer-overlay {
             display: none;
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.6);
+            inset: 0;
+            background-color: rgba(10, 15, 25, 0.55);
+            backdrop-filter: blur(3px);
             z-index: 1000;
             align-items: center;
             justify-content: center;
-            animation: fadeIn 0.3s ease;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.25s ease;
         }
 
         .special-offer-overlay.show {
             display: flex;
+            opacity: 1;
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        /* Special Offer Popup Card */
+        /* Card */
         .special-offer-popup {
-            background: linear-gradient(135deg, #074db1 0%, #053a8c 100%);
-            border-radius: 15px;
-            padding: 40px;
-            max-width: 500px;
-            width: 90%;
             position: relative;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-            animation: slideUp 0.4s ease;
+            display: block;
+            width: 100%;
+            max-width: 560px;
+            background: #ffffff;
+            border-radius: 18px;
+            overflow: hidden;
             text-decoration: none;
             color: inherit;
-            display: block;
-            transition: transform 0.3s ease;
+            box-shadow: 0 25px 60px rgba(7, 25, 60, 0.28);
+            transform: translateY(16px) scale(0.98);
+            opacity: 0;
+            animation: offerPopIn 0.35s ease forwards;
         }
 
         .special-offer-popup:hover {
-            transform: translateY(-5px);
             text-decoration: none;
             color: inherit;
         }
 
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
+        @keyframes offerPopIn {
             to {
+                transform: translateY(0) scale(1);
                 opacity: 1;
-                transform: translateY(0);
             }
         }
 
-        /* Close Button */
+        /* Top accent header */
+        .special-offer-popup .offer-header {
+            background: linear-gradient(135deg, #074db1 0%, #063f92 100%);
+            padding: 34px 44px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .special-offer-popup .offer-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            color: #063f92;
+            background: #ffc107;
+            padding: 7px 16px;
+            border-radius: 100px;
+            margin-bottom: 16px;
+        }
+
+        .special-offer-popup .offer-header h2 {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .special-offer-popup .offer-header h2 .discount-amount {
+            color: #ffc107;
+        }
+
+        /* Body */
+        .special-offer-popup .offer-body {
+            padding: 30px 44px 34px;
+            text-align: center;
+        }
+
+        .special-offer-popup .offer-body > p {
+            font-size: 15px;
+            color: #4b5563;
+            line-height: 1.65;
+            margin: 0 0 24px;
+        }
+
+        /* Feature list */
+        .special-offer-popup .offer-features {
+            list-style: none;
+            margin: 0 0 28px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: left;
+        }
+
+        .special-offer-popup .offer-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14.5px;
+            font-weight: 500;
+            color: #1f2937;
+        }
+
+        .special-offer-popup .offer-features li .feature-icon {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: #e8f1fd;
+            color: #074db1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+        }
+
+        /* Countdown */
+        .special-offer-popup .offer-countdown {
+            background: #f6f8fb;
+            border: 1px solid #e7ebf1;
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin-bottom: 26px;
+        }
+
+        .special-offer-popup .offer-countdown .countdown-label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+
+        .special-offer-popup .countdown-timer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .special-offer-popup .countdown-unit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 56px;
+            background: #0b1220;
+            border-radius: 8px;
+            padding: 8px 6px 6px;
+        }
+
+        .special-offer-popup .countdown-unit .countdown-value {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .special-offer-popup .countdown-unit .countdown-caption {
+            font-size: 9.5px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            color: #9ca9c2;
+            margin-top: 4px;
+        }
+
+        .special-offer-popup .countdown-sep {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0b1220;
+            padding-bottom: 12px;
+        }
+
+        .special-offer-popup .offer-call-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #074db1;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 15px 24px;
+            border-radius: 10px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .special-offer-popup .offer-call-btn i {
+            font-size: 15px;
+        }
+
+        .special-offer-popup:hover .offer-call-btn {
+            background: #053a8c;
+            transform: translateY(-1px);
+        }
+
+        .special-offer-popup .offer-note {
+            margin-top: 14px;
+            font-size: 12.5px;
+            color: #9ca3af;
+        }
+
+        /* Close button */
         .popup-close-btn {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 16px;
+            right: 16px;
             background-color: rgba(255, 255, 255, 0.2);
-            color: white;
-            width: 40px;
-            height: 40px;
+            color: #ffffff;
+            width: 32px;
+            height: 32px;
             border: none;
             border-radius: 50%;
-            font-size: 24px;
+            font-size: 16px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s ease;
+            transition: background-color 0.2s ease, transform 0.2s ease;
             z-index: 1001;
         }
 
         .popup-close-btn:hover {
-            background-color: rgba(255, 255, 255, 0.3);
-            transform: scale(1.1);
-        }
-
-        /* Popup Icon */
-        .popup-icon {
-            font-size: 48px;
-            color: #ffc107;
-            margin-bottom: 20px;
-            display: inline-block;
-        }
-
-        /* Popup Content */
-        .popup-content {
-            color: white;
-        }
-
-        .popup-content h2 {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 10px;
-            color: white;
-        }
-
-        .popup-content .discount-badge {
-            display: inline-block;
-            background-color: #ffc107;
-            color: #074db1;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-
-        .popup-content p {
-            font-size: 16px;
-            margin-bottom: 15px;
-            line-height: 1.6;
-            opacity: 0.95;
-        }
-
-        .popup-content .offer-note {
-            background-color: rgba(255, 255, 255, 0.15);
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 20px;
-            border-left: 4px solid #ffc107;
-            font-size: 14px;
-        }
-
-        .popup-call-button {
-            display: inline-block;
-            background-color: #ffc107;
-            color: #074db1;
-            padding: 12px 30px;
-            border-radius: 25px;
-            font-weight: 600;
-            font-size: 16px;
-            margin-top: 20px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .special-offer-popup:hover .popup-call-button {
-            background-color: #ffb300;
-            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.32);
+            transform: scale(1.08);
         }
 
         /* Responsive Design */
-        @media (max-width: 768px) {
-            .floating-call-button {
-                width: 60px;
-                height: 60px;
-                bottom: 20px;
-                right: 20px;
-            }
-
-            .floating-call-button i {
-                font-size: 24px;
-            }
-
+        @media (max-width: 600px) {
             .special-offer-popup {
-                padding: 30px 25px;
-                max-width: 90%;
+                max-width: 420px;
             }
 
-            .special-offer-popup h2 {
-                font-size: 24px;
+            .special-offer-popup .offer-header {
+                padding: 28px 26px 24px;
             }
 
-            .popup-content p {
+            .special-offer-popup .offer-header h2 {
+                font-size: 21px;
+            }
+
+            .special-offer-popup .offer-body {
+                padding: 26px 24px 28px;
+            }
+
+            .special-offer-popup .countdown-unit {
+                min-width: 46px;
+                padding: 7px 4px 5px;
+            }
+
+            .special-offer-popup .countdown-unit .countdown-value {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .special-offer-popup {
+                max-width: 100%;
+                border-radius: 14px;
+            }
+
+            .special-offer-popup .offer-header {
+                padding: 24px 20px 20px;
+            }
+
+            .special-offer-popup .offer-header h2 {
+                font-size: 19px;
+            }
+
+            .special-offer-popup .offer-body {
+                padding: 22px 20px 24px;
+            }
+
+            .special-offer-popup .offer-body > p {
+                font-size: 13.5px;
+            }
+
+            .special-offer-popup .offer-features li {
+                font-size: 13.5px;
+            }
+
+            .special-offer-popup .countdown-unit {
+                min-width: 40px;
+            }
+
+            .special-offer-popup .countdown-unit .countdown-value {
+                font-size: 16px;
+            }
+
+            .special-offer-popup .countdown-sep {
+                font-size: 16px;
+                padding-bottom: 10px;
+            }
+
+            .special-offer-popup .offer-call-btn {
                 font-size: 14px;
+                padding: 13px 18px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .special-offer-popup {
+                animation: none;
+                opacity: 1;
+                transform: none;
             }
         }
     </style>
@@ -266,32 +469,59 @@
 <body>
 
     <!-- Floating Call Button -->
-    <a href="tel:+1(855)613-4411" class="floating-call-button" title="Call Us Now">
-        <i class="fa-solid fa-phone"></i>
+    <a href="tel:+1(855)613-4411" class="cps-floating-call-btn" title="Call Us Now">
+        <span class="cps-call-icon-circle">
+            <i class="fa-solid fa-phone"></i>
+        </span>
+        <span class="cps-call-number-text">+1 (855) 613-4411</span>
     </a>
 
     <!-- Special Offer Popup -->
     <div class="special-offer-overlay" id="specialOfferPopup">
-        <a href="tel:+1(855)613-4411" class="special-offer-popup">
-            <button type="button" class="popup-close-btn" onclick="closeSpecialOfferPopup(event)">
+        <a href="tel:+18556134411" class="special-offer-popup">
+            <button type="button" class="popup-close-btn" onclick="closeSpecialOfferPopup(event)" aria-label="Close">
                 <i class="fa-solid fa-times"></i>
             </button>
-            
-            <div class="popup-content">
-                <div class="popup-icon">
-                    <i class="fa-solid fa-bolt"></i>
+
+            <div class="offer-header">
+                <span class="offer-tag"><i class="fa-solid fa-bolt"></i> Exclusive Deal Alert</span>
+                <h2>Unlock Up To <span class="discount-amount">35% OFF</span> Auto Parts!</h2>
+            </div>
+
+            <div class="offer-body">
+                <p>Speak directly with our certified auto parts specialists right now to claim your exclusive discount and check live inventory.</p>
+
+                <ul class="offer-features">
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Genuine OEM &amp; Aftermarket Parts</li>
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Express Nationwide Delivery</li>
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Guaranteed Exact Vehicle Fitment</li>
+                </ul>
+
+                <div class="offer-countdown">
+                    <span class="countdown-label">Offer Expires In:</span>
+                    <div class="countdown-timer" id="offerCountdown">
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownHours">01</span>
+                            <span class="countdown-caption">Hours</span>
+                        </div>
+                        <span class="countdown-sep">:</span>
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownMinutes">45</span>
+                            <span class="countdown-caption">Min</span>
+                        </div>
+                        <span class="countdown-sep">:</span>
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownSeconds">05</span>
+                            <span class="countdown-caption">Sec</span>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="discount-badge">LIMITED TIME OFFER</div>
-                
-                <h2>Exclusive Deal</h2>
-                <h2 style="color: #ffc107; font-size: 36px; margin-bottom: 15px;">50% OFF</h2>
-                
-                <p>On Selected Auto Parts & Accessories</p>
-                
-                <div class="offer-note">
-                    <i class="fa-solid fa-info-circle"></i> Call us now at <strong>+1-855-613-4411</strong> to claim your exclusive discount!
-                </div>
+
+                <span class="offer-call-btn">
+                    <i class="fa-solid fa-phone"></i> Call +1 (855) 613-4411
+                </span>
+
+                <p class="offer-note">Tap anywhere on this card to call us directly</p>
             </div>
         </a>
     </div>
@@ -611,17 +841,52 @@
     <script src="/frontend/js/function.js"></script>
 
     <script>
+        // Offer Countdown Timer — restarts fresh on every page load/refresh
+        function initOfferCountdown() {
+            const totalStartSeconds = (1 * 60 * 60) + (45 * 60) + 5; // 01:45:05
+            let remaining = totalStartSeconds;
+
+            const hoursEl = document.getElementById('countdownHours');
+            const minutesEl = document.getElementById('countdownMinutes');
+            const secondsEl = document.getElementById('countdownSeconds');
+
+            if (!hoursEl || !minutesEl || !secondsEl) return;
+
+            function pad(num) {
+                return String(num).padStart(2, '0');
+            }
+
+            function render() {
+                const h = Math.floor(remaining / 3600);
+                const m = Math.floor((remaining % 3600) / 60);
+                const s = remaining % 60;
+                hoursEl.textContent = pad(h);
+                minutesEl.textContent = pad(m);
+                secondsEl.textContent = pad(s);
+            }
+
+            render();
+
+            const timerInterval = setInterval(() => {
+                remaining -= 1;
+                if (remaining <= 0) {
+                    remaining = totalStartSeconds; // loop the offer countdown
+                }
+                render();
+            }, 1000);
+        }
+
         // Initialize Special Offer Popup
         function initSpecialOfferPopup() {
             const popupKey = 'specialOfferPopupShown_' + new Date().toDateString();
-            
+
             // Check if popup was already shown today
             if (!localStorage.getItem(popupKey)) {
                 // Show popup after 2 seconds
                 setTimeout(() => {
                     document.getElementById('specialOfferPopup').classList.add('show');
                 }, 2000);
-                
+
                 // Mark as shown for today
                 localStorage.setItem(popupKey, 'true');
             }
@@ -637,8 +902,7 @@
         // Prevent closing when clicking on the popup card itself
         document.addEventListener('DOMContentLoaded', function() {
             const popup = document.getElementById('specialOfferPopup');
-            const popupCard = document.querySelector('.special-offer-popup');
-            
+
             // Close only when clicking the overlay background (not the card)
             popup.addEventListener('click', function(event) {
                 if (event.target === popup) {
@@ -647,16 +911,11 @@
                 }
             });
 
-            // Prevent default behavior when clicking the card
-            popupCard.addEventListener('click', function(event) {
-                // Allow link behavior only on close button
-                if (!event.target.closest('.popup-close-btn')) {
-                    // The link will still work due to href, but prevent overlay close
-                }
-            });
-
             // Initialize popup on page load
             initSpecialOfferPopup();
+
+            // Start the countdown timer (resets fresh on every refresh)
+            initOfferCountdown();
         });
     </script>
 </body>

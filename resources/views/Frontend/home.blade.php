@@ -145,16 +145,16 @@
                         <div class="product-item wow fadeInUp">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18556134411">
+                                    <a href="tel:+18883707485">
                                         <figure>
-                                            <img src="/frontend/images/product-image-1.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/cylinder_head.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Engine Control Unit (ECU)</a></h2>
-                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <h2><a href="/engine-parts/cylinder-head">Cylinder Head</a></h2>
+                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
                         </div>
@@ -164,34 +164,34 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18556134411">
+                                    <a href="tel:+18883707485">
                                         <figure>
-                                            <img src="/frontend/images/product-image-2.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/supercharger.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Rocker Arms Assembly</a></h2>
-                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <h2><a href="/engine-parts/supercharger">Supercharger</a></h2>
+                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
 
                         <!-- Product Item Start -->
-                        <div class="product-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18556134411">
+                                    <a href="tel:+18883707485">
                                         <figure>
-                                            <img src="/frontend/images/product-image-3.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/drive_shaft.webp" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Turbocharger</a></h2>
-                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <h2><a href="/transmission-parts/drive-shaft">Drive Shaft</a></h2>
+                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -202,13 +202,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-4.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/shock_absorber.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Vehicle A/C Compressor</a></h2>
+                                <h2><a href="/suspension-parts/shock-absorber">Shock Absorber</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -220,13 +220,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-5.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/strut.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411"> Alternator</a></h2>
+                                <h2><a href="/suspension-parts/strut"> Strut</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -238,13 +238,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-6.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/ignition_switch.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Starter Solenoid/Relay</a></h2>
+                                <h2><a href="/electrical-parts/ignition-switch">Ignition Switch</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -256,13 +256,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-7.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/bumpers.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Electric Motor</a></h2>
+                                <h2><a href="/exterior-parts/bumpers">Bumpers</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -274,13 +274,13 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-8.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/car_center_console.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Suspension Control Arm</a></h2>
+                                <h2><a href="/interior-parts/center-console">Center Console</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -542,7 +542,7 @@
                                 
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Steering Wheel</a></h2>
+                                <h2><a href="/interior-parts/steering-wheel">Steering Wheel</a></h2>
                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
@@ -554,32 +554,14 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-10.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/car_doors.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">Side Mirror</a></h2>
+                                <h2><a href="/exterior-parts/doors">Doors</a></h2>
                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
-                            </div>
-                        </div>
-                        <!-- Featured Product Item End -->
-
-                        <!-- Featured Product Item Start -->
-                        <div class="product-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="product-item-header">
-                                <div class="product-item-image">
-                                    <a href="tel:+18556134411">
-                                        <figure>
-                                            <img src="/frontend/images/product-image-11.jpg" alt="">
-                                        </figure>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">LED Headlight Bulb Set</a></h2>
-                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Featured Product Item End -->
@@ -590,14 +572,32 @@
                                 <div class="product-item-image">
                                     <a href="tel:+18556134411">
                                         <figure>
-                                            <img src="/frontend/images/product-image-12.jpg" alt="">
+                                            <img src="/frontend/images/my-img/main/car_headlights.jpg" alt="">
                                         </figure>
                                     </a>
                                 </div>
                             </div>
                             <div class="product-item-content">
-                                <h2><a href="tel:+18556134411">AC Compressor Pulley</a></h2>
-                                 <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <h2><a href="/electrical-parts/headlight">Headlight</a></h2>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                            </div>
+                        </div>
+                        <!-- Featured Product Item End -->
+
+                        <!-- Featured Product Item Start -->
+                        <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="product-item-header">
+                                <div class="product-item-image">
+                                    <a href="tel:+18883707485">
+                                        <figure>
+                                            <img src="/frontend/images/my-img/main/floor_shifter.jpg" alt="">
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-item-content">
+                                <h2><a href="/transmission-parts/floor-shifter">Floor Shifter</a></h2>
+                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Featured Product Item End -->
