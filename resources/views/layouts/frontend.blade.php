@@ -745,7 +745,7 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We provide high-quality auto parts and accessories for all types of vehicles. Our mission
+                            <p>We provide high-quality used auto parts and accessories for all types of vehicles. Our mission
                                 is to deliver reliable products, competitive prices,</p>
                         </div>
                         <!-- About Footer Content End -->

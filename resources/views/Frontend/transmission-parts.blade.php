@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Reliable Transmission Parts for Smooth Performance</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Transmission Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality transmission parts designed to help keep your vehicle's transmission performing smoothly and efficiently.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our inventory includes a range of transmission components such as transmission filters, transmission fluid, transmission sensors, and other essential parts for various makes and models. Each part is chosen to deliver reliable performance and help maintain the health of your transmission system.</p>
+                            <span class="section-sub-title wow fadeInUp">Reliable Used Transmission Parts for Smooth Performance</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Transmission Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality tested used transmission parts and complete transmissions designed to keep your vehicle performing smoothly.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Our inventory includes a wide range of pre-owned transmission components such as used transmissions, torque converters, floor shifters, axle shafts, drive shafts, and other essential parts for various makes and models. Each used part is inspected to deliver reliable performance and great value.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,7 +94,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Transmission Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Transmission Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

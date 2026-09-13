@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Premium Interior Parts for Comfort and Style</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Interior Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality interior parts designed to enhance your vehicle’s comfort, appearance, functionality, and overall driving experience.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of automotive interior components such as dashboards, door panels, seats, center consoles, floor mats, interior trim, switches, handles, and other essential parts for various makes and models. Each part is selected to provide a reliable fit, durability, and a clean finish while helping maintain and improve your vehicle’s interior.</p>
+                            <span class="section-sub-title wow fadeInUp">Quality Used Interior Parts for Comfort and Style</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Interior Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality inspected used interior parts designed to enhance your vehicle’s comfort, appearance, and functionality.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a wide range of OEM pre-owned interior components such as replacement seats, center consoles, sun visors, steering wheels, seat belts, and air bag assemblies for various makes and models. Each part is checked for clean condition, durability, and exact fit.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -92,7 +92,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Interior Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Interior Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

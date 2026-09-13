@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Durable Exterior Parts for a Better Look and Protection</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Exterior Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality exterior parts designed to enhance your vehicle’s appearance, protection, and overall functionality.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of automotive exterior components such as bumpers, grilles, mirrors, fenders, door handles, lights, trim pieces, and other essential parts for various makes and models. Each part is selected to provide reliable fit, durability, and a clean finish while helping maintain your vehicle’s exterior.</p>
+                            <span class="section-sub-title wow fadeInUp">Durable Used Exterior Parts for Protection and Style</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Exterior Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality inspected used exterior parts designed to enhance your vehicle’s appearance, protection, and body alignment.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of pre-owned exterior body components such as used bumpers, hood assemblies, fenders, doors, side mirrors, grilles, and wheel hubs for various makes and models. Each OEM used part is inspected to provide reliable fit, durability, and a clean finish.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -92,7 +92,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Exterior Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Exterior Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

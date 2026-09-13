@@ -70,13 +70,13 @@
                         </span>
 
                         <h2 class="text-anime-style-3" data-cursor="-opaque">
-                            Get the Auto Parts Support You Need
+                            Get the Used Auto Parts Support You Need
                         </h2>
 
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Have questions about a part, vehicle compatibility, or your
+                            Have questions about a used part, vehicle fitment compatibility, or your
                             order? Our support team is ready to help you find the right
-                            solution and make your auto parts shopping experience simple.
+                            used auto part solution and make your shopping experience simple.
                         </p>
                     </div>
                     <!-- Section Title End -->

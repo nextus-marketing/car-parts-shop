@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Revive Your Ride with High-Quality Engines.</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Engine Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>Discover high-quality replacement engines designed to restore power and performance to your vehicle. We offer reliable engine solutions for various makes and models.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">Whether you need a complete engine assembly or individual engine components, our selection features dependable parts built for durability and performance. From cylinder heads and pistons to engine blocks and gaskets, we have the components to help you get back on the road with confidence.</p>
+                            <span class="section-sub-title wow fadeInUp">Revive Your Ride with High-Quality Tested Used Engines.</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Engine Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>Discover high-quality tested used replacement engines designed to restore power and performance to your vehicle. We offer reliable used engine solutions for various makes and models.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Whether you need a complete tested used engine assembly or individual pre-owned engine components, our selection features dependable OEM parts built for durability. From cylinder heads and superchargers to engine blocks and manifolds, we have inspected used components to help get your vehicle back on the road with confidence.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,7 +94,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Engine Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Engine Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

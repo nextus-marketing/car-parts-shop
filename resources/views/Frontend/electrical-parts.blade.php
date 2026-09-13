@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Reliable Electrical Parts for Smooth Performance</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Electrical Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality electrical parts designed to keep your vehicle’s electrical systems performing reliably and efficiently.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of automotive electrical components such as sensors, switches, relays, starters, alternators, wiring components, and other essential parts for various makes and models. Each part is selected to provide dependable performance and help keep your vehicle’s electrical system operating smoothly.</p>
+                            <span class="section-sub-title wow fadeInUp">Reliable Used Electrical Parts for Dependable Performance</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Electrical Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality tested used electrical parts designed to keep your vehicle’s electrical systems performing reliably.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a wide range of OEM pre-owned automotive electrical components such as alternators, starters, fuse boxes, instrument clusters, wiper motors, ignition switches, and headlight assemblies for various makes and models. Each used part is selected and tested to ensure dependable operation.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,7 +94,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Electrical Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Electrical Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

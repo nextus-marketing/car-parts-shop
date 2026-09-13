@@ -58,10 +58,10 @@
                     <div class="about-us-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <span class="section-sub-title wow fadeInUp">Reliable Suspension Parts for Smooth Performance</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Suspension Parts</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality Suspension Parts designed to help keep your vehicle's suspension performing smoothly and efficiently.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of suspension components such as shocks, struts, and other essential parts for various makes and models. Each part is chosen to deliver reliable performance and help maintain the health of your suspension system.</p>
+                            <span class="section-sub-title wow fadeInUp">Reliable Used Suspension Parts for Smooth Performance</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Used Suspension Parts</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>We provide quality tested used suspension parts designed to help keep your vehicle's suspension performing smoothly and safely.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a range of pre-owned suspension components such as used shocks, struts, control arms, steering columns, and rack & pinion assemblies for various makes and models. Each used part is inspected to deliver reliable performance and maintain ride stability.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -94,7 +94,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Suspension Parts for Your Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find the Right Used Suspension Parts for Your Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

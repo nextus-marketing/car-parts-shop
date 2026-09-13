@@ -71,12 +71,10 @@
                         <div class="hero-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <span class="section-sub-title wow fadeInUp">Quality You Can Trust</span>
-                                <h1 class="text-anime-style-3" data-cursor="-opaque">Everything Your Vehicle Needs in
-                                    One Place</h1>
-                                <p class="wow fadeInUp" data-wow-delay="0.2s">Discover premium auto parts and
-                                    accessories for every vehicle. From performance upgrades to everyday essentials,
-                                    shop quality products built to keep your car running smoothly.</p>
+                                <span class="section-sub-title wow fadeInUp">Trusted Used Parts & Great Value</span>
+                                <h1 class="text-anime-style-3" data-cursor="-opaque">Quality Used Auto Parts <br>at Great Prices
+                                </h1>
+                                <p class="wow fadeInUp" data-wow-delay="0.2s">Discover quality tested used and recycled auto parts for a wide range of vehicles. From used engines and transmissions to body parts, electrical components, and accessories, find reliable pre-owned parts at competitive prices to get your vehicle back on the road.</p>
                             </div>
                             <!-- Section Title End -->
 
@@ -181,7 +179,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Shop by Products</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find Quality Parts For Every Vehicle</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Find Used Quality Parts For Every Vehicle</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -359,7 +357,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <span class="section-sub-title wow fadeInUp">Parts by Type</span>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Automotive Parts for Every Need</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Used Automotive Parts for Every Need</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -866,9 +864,9 @@
                         <div class="featured-service-item box-1 wow fadeInUp">
                             <div class="featured-service-item-body">
                                 <div class="section-title">
-                                    <span class="section-sub-title">Trusted Parts</span>
+                                    <span class="section-sub-title">Trusted Used Parts</span>
                                     <h2 data-cursor="-opaque">Auto Parts Supplier</h2>
-                                    <p>Trusted supplier for automotive parts worldwide.</p>
+                                    <p>Trusted supplier for automotive used parts worldwide.</p>
                                 </div>
                                 <div class="featured-service-item-btn">
                                     <a href="tel:+18556134411" class="readmore-btn">Get in Touch</a>
@@ -1212,7 +1210,7 @@
                             </div>
                             <div class="post-item-body">
                                 <div class="post-item-content">
-                                    <h2><a href="tel:+18556134411">The Best OEM Engine Parts for Your <br> Car</a>
+                                    <h2><a href="tel:+18556134411">The Best Used Engine Parts for Your <br> Car</a>
                                     </h2>
                                 </div>
                                 <div class="post-item-btn">

@@ -60,9 +60,9 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <span class="section-sub-title wow fadeInUp">About Us</span>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Quality Auto Parts for Every Vehicle and Every Journey</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>Find reliable automotive parts built to deliver the performance, fit, and dependability your vehicle deserves.</b></p>
-                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a wide selection of replacement parts, maintenance essentials, and automotive components for cars, trucks, and SUVs. From brakes and suspension to engine and electrical parts, our products are selected to help keep your vehicle running safely and smoothly.</p>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Quality Used Auto Parts for Every Vehicle and Every Journey</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>Find reliable used automotive parts built to deliver the performance, fit, and dependability your vehicle deserves.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">We offer a wide selection of quality tested used replacement parts, OEM components, and automotive assemblies for cars, trucks, and SUVs. From engines and transmissions to suspension, body, and electrical parts, our pre-owned products are thoroughly inspected to help keep your vehicle running safely and affordably.</p>
                         </div>
                         <!-- Section Title End -->
 
