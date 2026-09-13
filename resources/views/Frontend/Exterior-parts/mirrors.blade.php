@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Heated Side View Mirrors | Power Folding Car Mirrors @endsection
+@section('title', 'Used Side Mirrors & Rearview Mirrors | Cars Part Shop')
+@section('meta_description', 'Find tested used power side view mirrors, heated mirrors, and interior rearview mirrors. Direct OEM fit.')
+@section('meta_keywords', 'used side mirrors, power side mirror, door mirror assembly, rearview mirror')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Mirrors", "item": "https://carspartshop.com/exterior-parts/mirrors" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 continental states, wrapped securely in dense bubble wrap to protect glass surfaces and mounting studs.</p>
+                        <p>Fast fast shipping across all 48 continental states, wrapped securely in dense bubble wrap to protect glass surfaces and mounting studs.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

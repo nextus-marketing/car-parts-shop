@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Ignition Switches & Lock Cylinder Assemblies | Starter Electrical Parts @endsection
+@section('title', 'Used Ignition Switches & Lock Cylinders | Cars Part Shop')
+@section('meta_description', 'Find tested used ignition switches and key lock cylinder assemblies. Quality OEM electrical components.')
+@section('meta_keywords', 'used ignition switch, ignition lock cylinder, car ignition assembly')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Ignition Switch", "item": "https://carspartshop.com/electrical-parts/ignition-switch" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

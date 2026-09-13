@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Brake Calipers & Drilled Slotted Brake Rotors | Braking System Parts @endsection
+@section('title', 'Used Brake Calipers & Rotors | Cars Part Shop')
+@section('meta_description', 'Shop tested used brake calipers and brake rotor assemblies. Safe stopping power at affordable prices.')
+@section('meta_keywords', 'used brake caliper, brake rotors, disc brake caliper, OEM brake caliper')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Brake Caliper & Rotors", "item": "https://carspartshop.com/suspension-parts/brake-caliper-rotors" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

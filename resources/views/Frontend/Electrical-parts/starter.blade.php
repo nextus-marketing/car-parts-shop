@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Heavy-Duty Starter Motors | OEM & High-Torque Starter Parts @endsection
+@section('title', 'Used Starter Motors for Sale | Cars Part Shop')
+@section('meta_description', 'Shop tested used starters for fast engine starting. Guaranteed solenoid function and gear engagement.')
+@section('meta_keywords', 'used starter motor, car starter, OEM starter replacement, engine starter')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Starter", "item": "https://carspartshop.com/electrical-parts/starter" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Hydraulic Engine Mounts | Heavy-Duty Motor Mounts @endsection
+@section('title', 'Used Engine Mounts & Motor Mounts | Cars Part Shop')
+@section('meta_description', 'Reduce engine vibration with durable used motor mounts and engine mounts. Tested OEM quality for all car models.')
+@section('meta_keywords', 'used engine mount, motor mount replacement, OEM motor mounts')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Engine Mount", "item": "https://carspartshop.com/engine-parts/engine-mount" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>Our engine mounts are covered by up to 1-year warranty protecting against rubber bushing cracking, hydraulic fluid leaks, and bracket weld defects.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast dispatch across North America in heavy-duty cardboard packaging to ensure brackets and rubber isolators arrive intact and ready for immediate bolt-on installation.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Call our parts support line at +1 (888) 370-7485 with your vehicle's VIN and engine specs to locate the exact front, rear, or side engine mount.
+                                        Call our parts support line at +1 (855) 613-4411 with your vehicle's VIN and engine specs to locate the exact front, rear, or side engine mount.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Engine Mounts?</h2>
                         <p>Browse our complete catalog of OEM and performance motor mounts or speak with an expert today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

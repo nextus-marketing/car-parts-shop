@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Car Engine | Car Parts Shop @endsection
+@section('title', 'Quality Used Car Engines & Motors for Sale | Cars Part Shop')
+@section('meta_description', 'Buy high quality tested used car engines with warranty. Low mileage OEM replacement motors available with fast fast shipping. Call +1 (855) 613-4411!')
+@section('meta_keywords', 'used car engines, replacement motor, OEM engine, used engine for sale, low mileage car engine')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Car Engine", "item": "https://carspartshop.com/engine-parts/car-engine" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All our parts come with up to 1-year warranty from the date of purchase. We're proud to offer one of the best warranties in the industry and stand behind the quality and reliability of every part we sell.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>We offer fast shipping with liftgate options on every part we sell. We can ship anywhere in the 48 continental US states. You can keep your old part no return necessary. Quick delivery means less downtime for your vehicle.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -211,7 +228,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Start by gathering your vehicle's information: make, model, year, and engine size. You can find this on your vehicle's VIN or in your owner's manual. Our engine finder tool allows you to input these details and view compatible options. If you're unsure, contact our expert team at +1 (888) 370-7485 and we'll help you identify the perfect engine for your car.
+                                        Start by gathering your vehicle's information: make, model, year, and engine size. You can find this on your vehicle's VIN or in your owner's manual. Our engine finder tool allows you to input these details and view compatible options. If you're unsure, contact our expert team at +1 (855) 613-4411 and we'll help you identify the perfect engine for your car.
                                     </p>
                                 </div>
                             </div>
@@ -292,7 +309,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        We offer fast shipping to all 48 continental US states with typical delivery times of 3-7 business days depending on your location. We can arrange liftgate delivery at no extra cost to safely unload your engine. Most orders ship within 24 hours of confirmation. For expedited shipping options, contact our team at +1 (888) 370-7485. No return of your old engine is necessary.
+                                        We offer fast shipping to all 48 continental US states with typical delivery times of 3-7 business days depending on your location. We can arrange liftgate delivery at no extra cost to safely unload your engine. Most orders ship within 24 hours of confirmation. For expedited shipping options, contact our team at +1 (855) 613-4411. No return of your old engine is necessary.
                                     </p>
                                 </div>
                             </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        We provide comprehensive technical support and installation guidance. While we don't perform installations directly, our expert team can answer installation questions and help troubleshoot any concerns. We recommend having a qualified mechanic install your engine to ensure proper setup. We can connect you with certified installers in your area. Call +1 (888) 370-7485 for installation support.
+                                        We provide comprehensive technical support and installation guidance. While we don't perform installations directly, our expert team can answer installation questions and help troubleshoot any concerns. We recommend having a qualified mechanic install your engine to ensure proper setup. We can connect you with certified installers in your area. Call +1 (855) 613-4411 for installation support.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Restore Your Engine Performance?</h2>
                         <p>Browse our extensive inventory of engines and components or speak with one of our experts today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

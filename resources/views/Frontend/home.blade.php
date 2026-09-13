@@ -1,5 +1,63 @@
 @extends('layouts.frontend')
-@section('title') Home Page | Cars Part Shop @endsection
+@section('title', 'Used Car Parts Shop | Classic to Modern Brands - Cars Part Shop')
+@section('meta_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 613-4411 for best deals!')
+@section('meta_keywords', 'used car parts, auto parts shop, genuine car parts, used engine, used transmission, car body parts, recycled auto parts, OEM auto parts, Cars Part Shop')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://carspartshop.com/#website",
+      "url": "https://carspartshop.com/",
+      "name": "Cars Part Shop",
+      "description": "Get Valuable Autoparts on Low Price",
+      "publisher": {
+        "@id": "https://carspartshop.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://carspartshop.com/#organization",
+      "name": "Cars Part Shop",
+      "url": "https://carspartshop.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://carspartshop.com/frontend/images/my-img/logo/logo.jpg"
+      },
+      "telephone": "+1 (855) 613-4411",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100086937047143",
+        "https://twitter.com/CarspartShop",
+        "https://www.reddit.com/user/carspartshop",
+        "https://in.pinterest.com/carspartshop/",
+        "https://www.linkedin.com/company/car-part-shop/about/?viewAsMember=true",
+        "https://www.instagram.com/carspartshop/",
+        "https://www.tumblr.com/carspartshop"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://carspartshop.com/",
+      "url": "https://carspartshop.com/",
+      "name": "Used Car Parts Shop | Classic to Modern Brands",
+      "isPartOf": {
+        "@id": "https://carspartshop.com/#website"
+      },
+      "about": {
+        "@id": "https://carspartshop.com/#organization"
+      },
+      "description": "We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 613-4411 for best deals!",
+      "inLanguage": "en-US"
+    }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 
     <!-- Hero Section Start -->
@@ -145,7 +203,7 @@
                         <div class="product-item wow fadeInUp">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/cylinder_head.jpg" alt="">
                                         </figure>
@@ -154,7 +212,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/engine-parts/cylinder-head">Cylinder Head</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
                         </div>
@@ -164,7 +222,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/supercharger.jpg" alt="">
                                         </figure>
@@ -173,7 +231,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/engine-parts/supercharger">Supercharger</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -182,7 +240,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/drive_shaft.webp" alt="">
                                         </figure>
@@ -191,7 +249,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/drive-shaft">Drive Shaft</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -588,7 +646,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/floor_shifter.jpg" alt="">
                                         </figure>
@@ -597,7 +655,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/floor-shifter">Floor Shifter</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Featured Product Item End -->

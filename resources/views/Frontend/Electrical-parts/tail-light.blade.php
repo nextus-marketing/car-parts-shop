@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & LED Tail Light Assemblies | Rear Braking & Signal Lights @endsection
+@section('title', 'Used Tail Lights & Rear Lamps | Cars Part Shop')
+@section('meta_description', 'Buy clean used tail light assemblies and brake lamps. Genuine OEM fitment for all vehicle makes and models.')
+@section('meta_keywords', 'used tail light, tail lamp assembly, rear light replacement, OEM tail light')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Tail Light", "item": "https://carspartshop.com/electrical-parts/tail-light" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

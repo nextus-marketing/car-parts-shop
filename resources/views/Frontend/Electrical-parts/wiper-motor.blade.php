@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Heavy-Duty Windshield Wiper Motors | Front & Rear Wiper Parts @endsection
+@section('title', 'Used Wiper Motors - Front & Rear | Cars Part Shop')
+@section('meta_description', 'Shop tested used windshield wiper motors for clear visibility in bad weather. Fast delivery nationwide.')
+@section('meta_keywords', 'used wiper motor, windshield wiper motor, front wiper motor, rear wiper motor')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Wiper Motor", "item": "https://carspartshop.com/electrical-parts/wiper-motor" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

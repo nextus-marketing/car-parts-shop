@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Heavy-Duty Engine Coolant Pumps & Water Pumps | OEM Replacement Parts @endsection
+@section('title', 'Used Coolant & Water Pumps for Sale | Cars Part Shop')
+@section('meta_description', 'Prevent engine overheating with tested used coolant pumps and water pumps. Guaranteed fit and warranty.')
+@section('meta_keywords', 'used coolant pump, used water pump, engine water pump, OEM coolant pump')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Coolant Pump", "item": "https://carspartshop.com/engine-parts/coolant-pump" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>Our coolant pumps are covered by an industry-leading warranty up to 1 year, protecting against shaft play, seal leakage, impeller detachment, and bearing noise.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -103,8 +120,8 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 continental states, packaged securely with custom housing protection and included mounting gaskets for fast installation.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <p>Fast fast shipping across all 48 continental states, packaged securely with custom housing protection and included mounting gaskets for fast installation.</p>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Contact our customer support team at +1 (888) 370-7485 with your vehicle's VIN, engine displacement, and year to get immediate fitment confirmation.
+                                        Contact our customer support team at +1 (855) 613-4411 with your vehicle's VIN, engine displacement, and year to get immediate fitment confirmation.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Protect Your Engine With a New Coolant Pump</h2>
                         <p>Explore our full catalog of OEM replacement water pumps or call our technical specialists for instant guidance.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

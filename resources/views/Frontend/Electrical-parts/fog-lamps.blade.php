@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & LED Front Fog Lamps | Driver Visibility Lighting Parts @endsection
+@section('title', 'Used Fog Lights & Driving Lamps | Cars Part Shop')
+@section('meta_description', 'Find quality used fog lamps and bumper driving lights for improved night and bad weather visibility.')
+@section('meta_keywords', 'used fog lamps, fog lights, bumper fog lamp assembly, driving lights')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Fog Lamps", "item": "https://carspartshop.com/electrical-parts/fog-lamps" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

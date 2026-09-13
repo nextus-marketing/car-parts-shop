@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Replacement Airbags & SRS Airbag Modules | Steering Wheel & Curtain Airbags @endsection
+@section('title', 'Used Airbag Modules & Steering Wheel Airbags | Cars Part Shop')
+@section('meta_description', 'Find tested OEM airbag modules, driver steering wheel airbags, passenger dash airbags, and side curtains.')
+@section('meta_keywords', 'used airbag module, driver airbag, passenger airbag, side curtain airbag')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Air Bag", "item": "https://carspartshop.com/interior-parts/air-bag" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

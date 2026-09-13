@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Electric & High-Pressure Fuel Pumps | OEM Fuel Delivery Parts @endsection
+@section('title', 'Used Fuel Pumps for Sale - Tested OEM Assemblies | Cars Part Shop')
+@section('meta_description', 'Find reliable used fuel pumps and fuel delivery assemblies. Inspected for proper pressure and performance.')
+@section('meta_keywords', 'used fuel pump, car fuel pump assembly, electric fuel pump, OEM fuel pump')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Fuel Pump", "item": "https://carspartshop.com/engine-parts/fuel-pump" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All fuel pump assemblies are protected by up to 1-year warranty coverage, ensuring reliable fuel pressure flow and motor longevity without premature failure.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -103,8 +120,8 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping with secure protective foam packaging to keep fuel level float arms, plastic module buckets, and electrical connectors safe during transport.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <p>Fast fast shipping with secure protective foam packaging to keep fuel level float arms, plastic module buckets, and electrical connectors safe during transport.</p>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Contact our customer support team at +1 (888) 370-7485 with your vehicle's VIN, engine displacement, and tank size to confirm exact fitment.
+                                        Contact our customer support team at +1 (855) 613-4411 with your vehicle's VIN, engine displacement, and tank size to confirm exact fitment.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Fuel Pump?</h2>
                         <p>Browse our extensive selection of OEM and high-pressure fuel pumps or speak with a fuel system specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

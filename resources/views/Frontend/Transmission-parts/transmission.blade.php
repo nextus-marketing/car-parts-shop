@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Automatic & Manual Transmissions | Remanufactured Gearbox Assemblies @endsection
+@section('title', 'Used Transmissions for Sale - Automatic & Manual | Cars Part Shop')
+@section('meta_description', 'Buy tested used transmissions with warranty. Great deals on automatic and manual gearboxes for all car makes & models. Call +1 (855) 613-4411!')
+@section('meta_keywords', 'used transmission, automatic transmission for sale, manual transmission, OEM gearbox')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Transmission", "item": "https://carspartshop.com/transmission-parts/transmission" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -49,7 +66,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                     </div>
@@ -73,7 +90,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All replacement transmissions come backed by up to 1-year warranty protection covering internal clutch pack wear, valve body solenoid malfunction, and torque converter slip.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -88,7 +105,7 @@
                         </div>
                         <h3>Fast Freight Shipping</h3>
                         <p>Fast LTL freight delivery nationwide, shipped on wooden pallets with ATF fluid drained and all ports plugged to prevent internal contamination during transport.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
             </div>
@@ -146,7 +163,7 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Read common questions about torque converter shudder, TCM programming, fluid flush requirements, and fitment.</p>
                         </div>
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +226,7 @@
                                 </button>
                             </h2>
                             <div id="collapse6" class="accordion-collapse collapse" role="region" aria-labelledby="heading6" data-bs-parent="#accordion">
-                                <div class="accordion-body"><p>Call our transmission specialists at +1 (888) 370-7485 with your vehicle's VIN, engine size, and transmission code for 100% exact fitment verification.</p></div>
+                                <div class="accordion-body"><p>Call our transmission specialists at +1 (855) 613-4411 with your vehicle's VIN, engine size, and transmission code for 100% exact fitment verification.</p></div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +245,7 @@
                         <h2>Ready to Replace Your Transmission?</h2>
                         <p>Browse our extensive catalog of OEM low-mileage and remanufactured automatic transmissions or speak with a drivetrain specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

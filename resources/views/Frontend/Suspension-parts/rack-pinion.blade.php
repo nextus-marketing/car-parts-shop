@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Rack & Pinion Steering Assemblies | Hydraulic & Electric Power Steering Racks @endsection
+@section('title', 'Used Rack and Pinion Steering Units for Sale | Cars Part Shop')
+@section('meta_description', 'Shop tested used rack and pinion power steering gear assemblies. Smooth handling and precise steering control.')
+@section('meta_keywords', 'used rack and pinion, power steering rack, steering gear assembly')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Rack & Pinion", "item": "https://carspartshop.com/suspension-parts/rack-pinion" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Seat Belts & Pre-Tensioner Retractor Assemblies | Safety Restraint Parts @endsection
+@section('title', 'Used Seat Belts & Retractors | Cars Part Shop')
+@section('meta_description', 'Buy safety-tested used seat belt assemblies, buckle latches, and seat belt retractors for all seating rows.')
+@section('meta_keywords', 'used seat belts, seat belt retractor, safety belt assembly, seat belt buckle')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Seat Belts", "item": "https://carspartshop.com/interior-parts/seat-belts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

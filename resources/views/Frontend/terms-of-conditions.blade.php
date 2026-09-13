@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
-@section('title') Terms and Conditions | Car Parts Shop @endsection
+@section('title', 'Terms and Conditions - Cars Part Shop')
+@section('meta_description', 'Read the Terms and Conditions of Cars Part Shop governing auto part sales, warranty policies, shipping, returns, and website usage.')
+@section('meta_keywords', 'terms and conditions, Cars Part Shop terms, warranty policy, return policy car parts')
 @section('content')
 
 <style>
@@ -367,13 +369,8 @@
                     </div>
 
                     <div class="definition-item">
-                        <div class="definition-term">Country</div>
-                        <div class="definition-description">Alaska, United States</div>
-                    </div>
-
-                    <div class="definition-item">
                         <div class="definition-term">Company</div>
-                        <div class="definition-description">Carspartshop, located at 1014 Retreat Avenue, Birmingham, Alaska. Referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
+                        <div class="definition-description">Cars Part Shop, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
                     </div>
 
                     <div class="definition-item">
@@ -489,14 +486,14 @@
                 <p>If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.</p>
             </div>
 
-            <!-- United States Legal Compliance -->
-            <div class="policy-section" id="us-compliance">
-                <h2 class="section-title">United States Legal Compliance</h2>
+            <!-- Legal Compliance -->
+            <div class="policy-section" id="legal-compliance">
+                <h2 class="section-title">Legal Compliance</h2>
 
                 <p>You represent and warrant that:</p>
                 <ul>
-                    <li>You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country</li>
-                    <li>You are not listed on any United States government list of prohibited or restricted parties</li>
+                    <li>You are not located in a country that is subject to government embargo or restricted trade sanctions.</li>
+                    <li>You are not listed on any government list of prohibited or restricted parties.</li>
                 </ul>
             </div>
 
@@ -540,10 +537,6 @@
                     <div class="contact-method">
                         <strong>📞 Phone</strong>
                         <a href="tel:+18556134411">+1 (855) 613-4411</a>
-                    </div>
-                    <div class="contact-method">
-                        <strong>🏢 Address</strong>
-                        <p>1014 Retreat Avenue<br>Birmingham, Alaska</p>
                     </div>
                 </div>
             </div>

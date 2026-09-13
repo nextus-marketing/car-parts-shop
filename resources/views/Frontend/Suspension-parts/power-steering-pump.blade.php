@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Hydraulic & Electric Power Steering Pumps | Steering System Parts @endsection
+@section('title', 'Used Power Steering Pumps for Sale | Cars Part Shop')
+@section('meta_description', 'Buy inspected used power steering pumps. Guaranteed pressure output and quiet operation for easy steering.')
+@section('meta_keywords', 'used power steering pump, car steering pump, OEM power steering assembly')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Power Steering Pump", "item": "https://carspartshop.com/suspension-parts/power-steering-pump" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide delivery across all 48 continental states, packaged securely in heavy boxes with protective caps over hose nipples and fluid ports.</p>
+                        <p>Fast fast delivery across all 48 continental states, packaged securely in heavy boxes with protective caps over hose nipples and fluid ports.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

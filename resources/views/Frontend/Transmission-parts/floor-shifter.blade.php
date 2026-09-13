@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Floor Shifters & Automatic Transmission Floor Shift Assemblies | Gear Selector Parts @endsection
+@section('title', 'Used Floor Shifters & Shift Assemblies | Cars Part Shop')
+@section('meta_description', 'Find clean used floor shifters, shift levers, and gear selectors for automatic and manual transmissions.')
+@section('meta_keywords', 'used floor shifter, gear shifter, gear selector, transmission floor shifter')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Floor Shifter", "item": "https://carspartshop.com/transmission-parts/floor-shifter" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -49,7 +66,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                     </div>
@@ -73,7 +90,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All floor shifter assemblies come backed by up to 1-year warranty protection covering shift interlock solenoid function, PRND backlight bulbs, and detent roller wear.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -88,7 +105,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast dispatch across all 48 continental states, packaged in bubble-wrapped protective boxes to prevent cracking of interior trim bezels and plastic shift gates.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
             </div>
@@ -146,7 +163,7 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Read common questions about stuck shifters, shift interlock bypass, cable adjustment, and fitment.</p>
                         </div>
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +226,7 @@
                                 </button>
                             </h2>
                             <div id="collapse6" class="accordion-collapse collapse" role="region" aria-labelledby="heading6" data-bs-parent="#accordion">
-                                <div class="accordion-body"><p>Call our parts team at +1 (888) 370-7485 with your vehicle's VIN, transmission type, and interior trim color code for exact fitment verification.</p></div>
+                                <div class="accordion-body"><p>Call our parts team at +1 (855) 613-4411 with your vehicle's VIN, transmission type, and interior trim color code for exact fitment verification.</p></div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +245,7 @@
                         <h2>Ready to Replace Your Floor Shifter?</h2>
                         <p>Browse our complete catalog of OEM automatic and manual floor gear shifter assemblies or speak with a specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,21 @@
 @extends('layouts.frontend')
-@section('title') Exterior Parts | Car Parts Shop @endsection
+@section('title', 'Used Exterior Car Body Parts & Panels | Cars Part Shop')
+@section('meta_description', 'Shop original used exterior car body parts, bumpers, fenders, doors, hoods, grilles, side mirrors & wheel rims with fast shipping.')
+@section('meta_keywords', 'used exterior car parts, car body panels, bumpers, fenders, doors, hood, side mirrors, grilles, wheel rims')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

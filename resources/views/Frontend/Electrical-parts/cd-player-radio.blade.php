@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Replacement Car CD Players & Radio Units | In-Dash Audio Parts @endsection
+@section('title', 'Used Car Radios & CD Players | Cars Part Shop')
+@section('meta_description', 'Shop genuine OEM used car radios, head units, and CD players. Tested audio units for factory replacement.')
+@section('meta_keywords', 'used car radio, OEM head unit, car CD player, factory stereo replacement')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "CD Player & Radio", "item": "https://carspartshop.com/electrical-parts/cd-player-radio" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

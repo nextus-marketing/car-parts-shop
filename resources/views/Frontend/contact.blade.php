@@ -1,6 +1,26 @@
 @extends('layouts.frontend')
 
-@section('title') Contact Us | Cars Part Shop @endsection
+@section('title', 'Contact Us - Cars Part Shop | Call +1 (855) 613-4411')
+@section('meta_description', 'Contact Cars Part Shop for expert help finding used car parts, engines, transmissions, and accessories. Call +1 (855) 613-4411 for immediate assistance and quote.')
+@section('meta_keywords', 'contact car parts shop, auto parts phone number, order used car parts, car part inquiry, Cars Part Shop contact')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact Cars Part Shop",
+  "description": "Contact info for Cars Part Shop customer support and quote team.",
+  "url": "https://carspartshop.com/contact",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Cars Part Shop",
+    "telephone": "+1 (855) 613-4411",
+    "url": "https://carspartshop.com/"
+  }
+}
+</script>
+@endpush
 
 @section('content')
 
@@ -248,21 +268,15 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <!-- Google Map Iframe Start -->
-                <div class="google-map-iframe wow fadeInUp"
-                    data-wow-delay="0.2s">
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212854.39265561348!2d-87.01528222361866!3d33.531288351851515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888911df5885bfd3%3A0x25507409eaba54ce!2sBirmingham%2C%20AL%2C%20USA!5e0!3m2!1sen!2sin!4v1787342142174!5m2!1sen!2sin"
-                        width="600"
-                        height="450"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="strict-origin-when-cross-origin">
-                    </iframe>
-
+                <!-- Contact Call Banner Start -->
+                <div class="contact-support-banner text-center py-5 px-4 my-4 rounded-4" style="background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%); color: #fff;">
+                    <h3 class="mb-3 text-white fw-bold">Need Immediate Auto Parts Assistance?</h3>
+                    <p class="mb-4 text-white-50">Speak directly with our expert auto parts specialists for instant fitment verification and price quotes.</p>
+                    <a href="tel:+18556134411" class="btn btn-light btn-lg rounded-pill px-4 fw-bold text-primary shadow">
+                        <i class="fa-solid fa-phone me-2"></i> Call +1 (855) 613-4411
+                    </a>
                 </div>
+                <!-- Contact Call Banner End -->
                 <!-- Google Map Iframe End -->
 
             </div>

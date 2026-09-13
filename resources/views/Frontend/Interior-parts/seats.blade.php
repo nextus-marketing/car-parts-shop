@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Replacement Car Seats | Power & Leather Front Bucket Seats @endsection
+@section('title', 'Used Car Seats & Leather Bucket Seats | Cars Part Shop')
+@section('meta_description', 'Shop comfortable used driver, passenger, and rear car seats. Genuine leather and cloth interior seating.')
+@section('meta_keywords', 'used car seats, leather bucket seats, driver seat replacement, rear bench seat')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Seats", "item": "https://carspartshop.com/interior-parts/seats" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

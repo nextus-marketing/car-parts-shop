@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Replacement Car Doors | Front & Rear Car Door Shells @endsection
+@section('title', 'Used Car Doors - Front, Rear & Hatch | Cars Part Shop')
+@section('meta_description', 'Shop complete used car doors, side doors, tailgate and hatch doors. Inspected rust-free body panels.')
+@section('meta_keywords', 'used car doors, front door assembly, rear door, tailgate, hatchback door')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Doors", "item": "https://carspartshop.com/exterior-parts/doors" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

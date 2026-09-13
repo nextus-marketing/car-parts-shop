@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Steering Wheels & Leather Steering Wheel Assemblies | Interior Steering Parts @endsection
+@section('title', 'Used Steering Wheels & Leather Wheels | Cars Part Shop')
+@section('meta_description', 'Shop original used steering wheels with audio controls, leather wrap, and horn buttons. Direct fit replacement.')
+@section('meta_keywords', 'used steering wheel, leather steering wheel, OEM steering wheel with controls')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Car Steering", "item": "https://carspartshop.com/interior-parts/car-steering" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide delivery across all 48 continental states, packaged securely with protective foam ring inserts to safeguard leather surfaces.</p>
+                        <p>Fast fast delivery across all 48 continental states, packaged securely with protective foam ring inserts to safeguard leather surfaces.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

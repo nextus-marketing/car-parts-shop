@@ -1,0 +1,1489 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- Page Title -->
+    <title>Car Engine | Car Parts Shop</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/frontend/images/my-img/logo/favicon.jpg">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"
+        rel="stylesheet">
+    <!-- Custom Fonts Css-->
+    <link href="/frontend/css/fonts.css" rel="stylesheet" media="screen">
+    <!-- Bootstrap Css -->
+    <link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="/frontend/css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animated Css -->
+    <link href="/frontend/css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="/frontend/css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="/frontend/css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
+
+    <!-- My Css File -->
+    <link href="/frontend/css/my.css" rel="stylesheet" media="screen">
+
+    <style>
+        /* Floating Call Button (unique class to avoid theme CSS conflicts) */
+        .cps-floating-call-btn {
+            position: fixed !important;
+            bottom: 30px !important;
+            left: 30px !important;
+            width: auto !important;
+            height: 62px !important;
+            background: linear-gradient(135deg, #2f6bf0 0%, #1a4fc4 100%) !important;
+            color: #ffffff !important;
+            padding: 0 22px 0 0 !important;
+            border-radius: 50px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            gap: 12px !important;
+            text-decoration: none !important;
+            box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45) !important;
+            transition: all 0.3s ease !important;
+            z-index: 999 !important;
+            animation: cps-pulse-ring 2s infinite !important;
+        }
+
+        .cps-floating-call-btn .cps-call-icon-circle {
+            flex-shrink: 0;
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.18);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cps-floating-call-btn .cps-call-icon-circle i {
+            font-size: 22px;
+            color: #ffffff !important;
+        }
+
+        .cps-floating-call-btn .cps-call-number-text {
+            display: inline-block !important;
+            font-size: 17px;
+            font-weight: 700;
+            white-space: nowrap;
+            letter-spacing: 0.01em;
+            color: #ffffff !important;
+        }
+
+        .cps-floating-call-btn:hover {
+            box-shadow: 0 8px 26px rgba(26, 79, 196, 0.6) !important;
+            transform: scale(1.05);
+            text-decoration: none !important;
+            color: #ffffff !important;
+        }
+
+        @keyframes cps-pulse-ring {
+            0% {
+                box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45);
+            }
+            50% {
+                box-shadow: 0 6px 28px rgba(26, 79, 196, 0.65);
+            }
+            100% {
+                box-shadow: 0 6px 20px rgba(26, 79, 196, 0.45);
+            }
+        }
+
+        /* Floating Call Button — Responsive */
+        @media (max-width: 480px) {
+            .cps-floating-call-btn {
+                height: 52px !important;
+                bottom: 18px !important;
+                left: 18px !important;
+                padding-right: 16px !important;
+                gap: 10px !important;
+            }
+
+            .cps-floating-call-btn .cps-call-icon-circle {
+                width: 52px;
+                height: 52px;
+            }
+
+            .cps-floating-call-btn .cps-call-icon-circle i {
+                font-size: 18px;
+            }
+
+            .cps-floating-call-btn .cps-call-number-text {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 360px) {
+            .cps-floating-call-btn .cps-call-number-text {
+                display: none !important; /* icon-only on very small screens */
+            }
+
+            .cps-floating-call-btn {
+                padding-right: 0 !important;
+                width: 52px !important;
+                justify-content: center !important;
+            }
+        }
+
+        /* ============================================
+           Special Offer Popup — clean, modern, responsive
+           ============================================ */
+        .special-offer-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background-color: rgba(10, 15, 25, 0.55);
+            backdrop-filter: blur(3px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .special-offer-overlay.show {
+            display: flex;
+            opacity: 1;
+        }
+
+        /* Card */
+        .special-offer-popup {
+            position: relative;
+            display: block;
+            width: 100%;
+            max-width: 560px;
+            background: #ffffff;
+            border-radius: 18px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 25px 60px rgba(7, 25, 60, 0.28);
+            transform: translateY(16px) scale(0.98);
+            opacity: 0;
+            animation: offerPopIn 0.35s ease forwards;
+        }
+
+        .special-offer-popup:hover {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        @keyframes offerPopIn {
+            to {
+                transform: translateY(0) scale(1);
+                opacity: 1;
+            }
+        }
+
+        /* Top accent header */
+        .special-offer-popup .offer-header {
+            background: linear-gradient(135deg, #074db1 0%, #063f92 100%);
+            padding: 34px 44px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .special-offer-popup .offer-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            color: #063f92;
+            background: #ffc107;
+            padding: 7px 16px;
+            border-radius: 100px;
+            margin-bottom: 16px;
+        }
+
+        .special-offer-popup .offer-header h2 {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.3;
+        }
+
+        .special-offer-popup .offer-header h2 .discount-amount {
+            color: #ffc107;
+        }
+
+        /* Body */
+        .special-offer-popup .offer-body {
+            padding: 30px 44px 34px;
+            text-align: center;
+        }
+
+        .special-offer-popup .offer-body > p {
+            font-size: 15px;
+            color: #4b5563;
+            line-height: 1.65;
+            margin: 0 0 24px;
+        }
+
+        /* Feature list */
+        .special-offer-popup .offer-features {
+            list-style: none;
+            margin: 0 0 28px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: left;
+        }
+
+        .special-offer-popup .offer-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14.5px;
+            font-weight: 500;
+            color: #1f2937;
+        }
+
+        .special-offer-popup .offer-features li .feature-icon {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background: #e8f1fd;
+            color: #074db1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+        }
+
+        /* Countdown */
+        .special-offer-popup .offer-countdown {
+            background: #f6f8fb;
+            border: 1px solid #e7ebf1;
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin-bottom: 26px;
+        }
+
+        .special-offer-popup .offer-countdown .countdown-label {
+            display: block;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            color: #6b7280;
+            margin-bottom: 10px;
+        }
+
+        .special-offer-popup .countdown-timer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .special-offer-popup .countdown-unit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 56px;
+            background: #0b1220;
+            border-radius: 8px;
+            padding: 8px 6px 6px;
+        }
+
+        .special-offer-popup .countdown-unit .countdown-value {
+            font-size: 22px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .special-offer-popup .countdown-unit .countdown-caption {
+            font-size: 9.5px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            color: #9ca9c2;
+            margin-top: 4px;
+        }
+
+        .special-offer-popup .countdown-sep {
+            font-size: 20px;
+            font-weight: 700;
+            color: #0b1220;
+            padding-bottom: 12px;
+        }
+
+        .special-offer-popup .offer-call-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #074db1;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 15px 24px;
+            border-radius: 10px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .special-offer-popup .offer-call-btn i {
+            font-size: 15px;
+        }
+
+        .special-offer-popup:hover .offer-call-btn {
+            background: #053a8c;
+            transform: translateY(-1px);
+        }
+
+        .special-offer-popup .offer-note {
+            margin-top: 14px;
+            font-size: 12.5px;
+            color: #9ca3af;
+        }
+
+        /* Close button */
+        .popup-close-btn {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            width: 32px;
+            height: 32px;
+            border: none;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+            z-index: 1001;
+        }
+
+        .popup-close-btn:hover {
+            background-color: rgba(255, 255, 255, 0.32);
+            transform: scale(1.08);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .special-offer-popup {
+                max-width: 420px;
+            }
+
+            .special-offer-popup .offer-header {
+                padding: 28px 26px 24px;
+            }
+
+            .special-offer-popup .offer-header h2 {
+                font-size: 21px;
+            }
+
+            .special-offer-popup .offer-body {
+                padding: 26px 24px 28px;
+            }
+
+            .special-offer-popup .countdown-unit {
+                min-width: 46px;
+                padding: 7px 4px 5px;
+            }
+
+            .special-offer-popup .countdown-unit .countdown-value {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .special-offer-popup {
+                max-width: 100%;
+                border-radius: 14px;
+            }
+
+            .special-offer-popup .offer-header {
+                padding: 24px 20px 20px;
+            }
+
+            .special-offer-popup .offer-header h2 {
+                font-size: 19px;
+            }
+
+            .special-offer-popup .offer-body {
+                padding: 22px 20px 24px;
+            }
+
+            .special-offer-popup .offer-body > p {
+                font-size: 13.5px;
+            }
+
+            .special-offer-popup .offer-features li {
+                font-size: 13.5px;
+            }
+
+            .special-offer-popup .countdown-unit {
+                min-width: 40px;
+            }
+
+            .special-offer-popup .countdown-unit .countdown-value {
+                font-size: 16px;
+            }
+
+            .special-offer-popup .countdown-sep {
+                font-size: 16px;
+                padding-bottom: 10px;
+            }
+
+            .special-offer-popup .offer-call-btn {
+                font-size: 14px;
+                padding: 13px 18px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .special-offer-popup {
+                animation: none;
+                opacity: 1;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Floating Call Button -->
+    <a href="tel:+1(855)613-4411" class="cps-floating-call-btn" title="Call Us Now">
+        <span class="cps-call-icon-circle">
+            <i class="fa-solid fa-phone"></i>
+        </span>
+        <span class="cps-call-number-text">+1 (855) 613-4411</span>
+    </a>
+
+    <!-- Special Offer Popup -->
+    <div class="special-offer-overlay" id="specialOfferPopup">
+        <a href="tel:+18556134411" class="special-offer-popup">
+            <button type="button" class="popup-close-btn" onclick="closeSpecialOfferPopup(event)" aria-label="Close">
+                <i class="fa-solid fa-times"></i>
+            </button>
+
+            <div class="offer-header">
+                <span class="offer-tag"><i class="fa-solid fa-bolt"></i> Exclusive Deal Alert</span>
+                <h2>Unlock Up To <span class="discount-amount">35% OFF</span> Auto Parts!</h2>
+            </div>
+
+            <div class="offer-body">
+                <p>Speak directly with our certified auto parts specialists right now to claim your exclusive discount and check live inventory.</p>
+
+                <ul class="offer-features">
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Genuine OEM &amp; Aftermarket Parts</li>
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Express Nationwide Delivery</li>
+                    <li><span class="feature-icon"><i class="fa-solid fa-check"></i></span> Guaranteed Exact Vehicle Fitment</li>
+                </ul>
+
+                <div class="offer-countdown">
+                    <span class="countdown-label">Offer Expires In:</span>
+                    <div class="countdown-timer" id="offerCountdown">
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownHours">01</span>
+                            <span class="countdown-caption">Hours</span>
+                        </div>
+                        <span class="countdown-sep">:</span>
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownMinutes">45</span>
+                            <span class="countdown-caption">Min</span>
+                        </div>
+                        <span class="countdown-sep">:</span>
+                        <div class="countdown-unit">
+                            <span class="countdown-value" id="countdownSeconds">05</span>
+                            <span class="countdown-caption">Sec</span>
+                        </div>
+                    </div>
+                </div>
+
+                <span class="offer-call-btn">
+                    <i class="fa-solid fa-phone"></i> Call +1 (855) 613-4411
+                </span>
+
+                <p class="offer-note">Tap anywhere on this card to call us directly</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <!-- Header Action Box Start -->
+                <div class="header-action-box">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="/">
+                        <img src="/frontend/images/my-img/logo/carspartshop-logo.png" alt="Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Header Search Form Box Start -->
+                    <div class="header-search-form-box">
+                        <div class="header-call-box">
+                            <div class="header-call-content">
+                                <span class="call-small-text">Get Exciting Deals on</span>
+                                <h4>Second Hand Auto Parts</h4>
+                                <a href="tel:+18556134411" class="call-now-btn">
+                                    <i class="fa-solid fa-phone"></i> Call Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Header Search Form Box End -->
+
+                    <div class="header-search-form-box">
+                        <a href="tel:+18556134411" class="mobile-call-btn">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+1 (855) 613-4411</span>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- Header Action Box End -->
+
+                <!-- Main Menu Start -->
+                <div class="main-menu">
+                    <div class="collapse navbar-collapse">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                                <li class="nav-item mega-menu submenu position-static">
+                                    <a class="nav-link" href="#0">Shop</a>
+                                    <!-- Dropdown Menu Start -->
+                                    <ul class="dropdown-menu">
+                                        <!-- Mega Menu Box Start -->
+                                        <li class="mega-menu-box">
+                                            <div class="mega-menu-links-box">
+                                                <!-- Mega Menu Link Start -->
+                                                <div class="mega-menu-link">
+                                                    <h2>Auto Parts Selection</h2>
+                                                    <ul>
+                                                        <li><a href="/engine-parts">Engine Parts</a></li>
+                                                        <li><a href="/transmission-parts">Transmission Parts</a></li>
+                                                        <li><a href="/suspension-parts">Suspension Parts</a></li>
+                                                       
+                                                    </ul>
+                                                </div>
+                                                <!-- Mega Menu Link End -->
+
+                                                <!-- Mega Menu Link Start -->
+                                                <div class="mega-menu-link">
+                                                    <h2>Auto Parts Selection</h2>
+                                                    <ul>
+                                                        <li><a href="/electrical-parts">Electrical Parts</a></li>
+                                                        <li><a href="/exterior-parts">Exterior Parts</a></li>
+                                                        <li><a href="/interior-parts">Interior Parts</a></li>
+                                                    </ul>
+                                                </div>
+                                                <!-- Mega Menu Link End -->
+                                            </div>
+
+                                            <!-- Mega Menu Items List Start -->
+                                            <div class="mega-menu-items-list">
+                                                <!-- Mega Menu Item Start -->
+                                                <div class="mega-menu-item">
+                                                    <!-- Mega Menu Item Image Start -->
+                                                    <div class="mega-menu-item-image">
+                                                        <a href="/engine-parts">
+                                                            <figure class="image-anime">
+                                                                <img src="/frontend/images/my-img/engine-menu.avif"
+                                                                    alt="">
+                                                            </figure>
+                                                        </a>
+                                                    </div>
+                                                    <!-- Mega Menu Item Image End -->
+
+                                                    <!-- Mega Menu Item Content Start -->
+                                                    <div class="mega-menu-item-content">
+                                                        <h2><a href="/engine-parts">Engine Parts</a></h2>
+                                                        <p>Premium components for reliable engine performance and smooth vehicle operation.</p>
+                                                    </div>
+                                                    <!-- Mega Menu Item Content End -->
+                                                </div>
+                                                <!-- Mega Menu Item End -->
+
+                                                <!-- Mega Menu Item Start -->
+                                                <div class="mega-menu-item">
+                                                    <!-- Mega Menu Item Image Start -->
+                                                    <div class="mega-menu-item-image">
+                                                        <a href="/transmission-parts">
+                                                            <figure class="image-anime">
+                                                                <img src="/frontend/images/my-img/transmission-menu.webp"
+                                                                    alt="">
+                                                            </figure>
+                                                        </a>
+                                                    </div>
+                                                    <!-- Mega Menu Item Image End -->
+
+                                                    <!-- Mega Menu Item Content Start -->
+                                                    <div class="mega-menu-item-content">
+                                                        <h2><a href="/transmission-parts">Transmission Parts</a></h2>
+                                                        <p>Quality components for smooth gear shifting, reliable performance, and enhanced driving comfort.</p>
+                                                    </div>
+                                                    <!-- Mega Menu Item Content End -->
+                                                </div>
+                                                <!-- Mega Menu Item End -->
+
+                                                <!-- Mega Menu Item Start -->
+                                                <div class="mega-menu-item big-offer-box">
+                                                    <!-- Mega Menu Item Image Start -->
+                                                    <div class="mega-menu-item-image">
+                                                        <figure>
+                                                            <img src="/frontend/images/mega-menu-item-image-3.jpg"
+                                                                alt="">
+                                                        </figure>
+                                                    </div>
+                                                    <!-- Mega Menu Item Image End -->
+
+                                                    <!-- Mega Menu Item Content Start -->
+                                                    <div class="mega-menu-item-content">
+                                                        <span>-special offer-</span>
+                                                        <h2>Big Sale</h2>
+                                                        <h3>35% Off</h3>
+                                                         <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                                    </div>
+                                                    <!-- Mega Menu Item Content End -->
+                                                </div>
+                                                <!-- Mega Menu Item End -->
+                                            </div>
+                                            <!-- Mega Menu Items List End -->
+                                        </li>
+                                        <!-- Mega Menu Box End -->
+                                    </ul>
+                                    <!-- Dropdown Menu End -->
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Info Box Start -->
+                        <div class="header-info-box">
+                            <!-- Header Contact Info Start -->
+                            <div class="header-contact-info">
+                                <div class="icon-box">
+                                    <img src="/frontend/images/icon-phone-primary.svg" alt="">
+                                </div>
+                                <div class="header-contact-info-content">
+                                    <p>Get Support</p>
+                                    <span><a href="tel:+18556134411">+1 (855) 613-4411</a></span>
+                                </div>
+                            </div>
+                            <!-- Header Contact Info End -->
+                        </div>
+                        <!-- Header Info Box End -->
+                    </div>
+                    <div class="navbar-toggle"></div>
+                </div>
+                <!-- Main Menu End -->
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    
+<!-- Page Header Start -->
+    <div class="page-header dark-section parallaxie">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Car Engine</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                                <li class="breadcrumb-item"><a href="/engine-parts">Engine Parts</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Car Engine</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+    
+    <!-- Engine Parts Section Start -->
+    <div class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <!-- Engine Parts Image Start -->
+                    <div class="about-us-image">
+                        <figure class="image-anime reveal">
+                            <img src="/frontend/images/my-img/main/engine.jpg" alt="High-Quality Car Engine">
+                        </figure>
+                    </div>
+                    <!-- Engine Parts Image End -->
+                </div>
+
+                <div class="col-xl-6">
+                    <!-- Engine Parts Content Start -->
+                    <div class="about-us-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Premium Engine Replacement Solutions</span>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">Complete Engine Systems</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s"><b>Restore your vehicle's power with our premium quality replacement engines. We supply OEM-equivalent and performance-grade engines for virtually every make and model, ensuring your car runs like new.</b></p>
+                            <p class="wow fadeInUp" data-wow-delay="0.4s">Whether you're dealing with engine failure, planning an upgrade, or seeking reliable engine components, our extensive inventory features complete engine assemblies and individual parts. From cylinder heads and camshafts to fuel injection systems and turbochargers, each component is tested for quality and durability. We guarantee compatibility with your vehicle's specifications and provide expert guidance throughout the selection process.</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Engine Parts Contact Item Start -->
+                        <div class="about-us-contact-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="about-us-contact-item-image">
+                                <figure class="image-anime">
+                                    <img src="/frontend/images/author-4.jpg" alt="Expert Support">
+                                </figure>
+                            </div>
+                            <div class="about-us-contact-item-content">
+                                <p>Need Help? Chat With An Expert</p>
+                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                            </div>
+                        </div>
+                        <!-- Engine Parts Contact Item End -->
+                    </div>
+                    <!-- Engine Parts Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Engine Parts Section End -->
+
+    <!-- Feature Cards Section Start -->
+    <div class="engine-features">
+        <div class="container">
+            <div class="row">
+                <!-- Warranty Card Start -->
+                <div class="col-md-6 col-lg-6 wow fadeInUp">
+                    <div class="feature-card warranty-card">
+                        <div class="feature-card-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 2L5 12V25C5 38.5 25 47 25 47C25 47 45 38.5 45 25V12L25 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <path d="M17 25L22 30L33 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Up to 1 Year Warranty</h3>
+                        <p>All our parts come with up to 1-year warranty from the date of purchase. We're proud to offer one of the best warranties in the industry and stand behind the quality and reliability of every part we sell.</p>
+                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                    </div>
+                </div>
+                <!-- Warranty Card End -->
+
+                <!-- Fast Shipping Card Start -->
+                <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-card shipping-card">
+                        <div class="feature-card-icon">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20H45V38C45 40.2091 43.2091 42 41 42H9C6.79086 42 5 40.2091 5 38V20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M14 20V12C14 10.8954 14.8954 10 16 10H34C35.1046 10 36 10.8954 36 12V20" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="35" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+                                <circle cx="38" cy="35" r="3" stroke="currentColor" stroke-width="2" fill="none"/>
+                            </svg>
+                        </div>
+                        <h3>Fast Shipping</h3>
+                        <p>We offer fast shipping with liftgate options on every part we sell. We can ship anywhere in the 48 continental US states. You can keep your old part no return necessary. Quick delivery means less downtime for your vehicle.</p>
+                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                    </div>
+                </div>
+                <!-- Fast Shipping Card End -->
+            </div>
+        </div>
+    </div>
+    <!-- Feature Cards Section End -->
+
+    <!-- Engine Specifications Section Start -->
+    <div class="engine-specs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center wow fadeInUp">
+                        <span class="section-sub-title">What We Offer</span>
+                        <h2 class="text-anime-style-3">Our Engine Product Range</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="spec-item">
+                        <div class="spec-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h4>Complete Engine Assemblies</h4>
+                        <p>Full replacement engines ready for installation with all necessary components included.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="spec-item">
+                        <div class="spec-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h4>High-Performance Components</h4>
+                        <p>Cylinder heads, pistons, camshafts, and turbochargers for enhanced power output.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="spec-item">
+                        <div class="spec-icon">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h4>Engine Support Parts</h4>
+                        <p>Gaskets, seals, water pumps, fuel systems, and manifolds for complete maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Engine Specifications Section End -->
+
+    <!-- FAQ Section Start -->
+    <div class="our-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <!-- FAQ's Content Start -->
+                    <div class="faqs-content">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Frequently Asked Questions</span>
+
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">
+                                Everything you need to know about engine replacement
+                            </h2>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Find answers to common questions about engine selection, compatibility, installation, warranties, shipping, and technical support.
+                            </p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- FAQ's Content Button Start -->
+                        <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
+                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                        </div>
+                        <!-- FAQ's Content Button End -->
+                    </div>
+                    <!-- FAQ's Content End -->
+                </div>
+
+                <div class="col-xl-7">
+                    <!-- FAQ Accordion Start -->
+                    <div class="faq-accordion" id="accordion">
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1"
+                                    aria-expanded="false"
+                                    aria-controls="collapse1">
+                                    01. How do I select the correct engine for my vehicle?
+                                </button>
+                            </h2>
+
+                            <div id="collapse1"
+                                class="accordion-collapse collapse"
+                                role="region"
+                                aria-labelledby="heading1"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        Start by gathering your vehicle's information: make, model, year, and engine size. You can find this on your vehicle's VIN or in your owner's manual. Our engine finder tool allows you to input these details and view compatible options. If you're unsure, contact our expert team at +1 (888) 370-7485 and we'll help you identify the perfect engine for your car.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2"
+                                    aria-expanded="true"
+                                    aria-controls="collapse2">
+                                    02. What types of engines do you carry?
+                                </button>
+                            </h2>
+
+                            <div id="collapse2"
+                                class="accordion-collapse collapse show"
+                                role="region"
+                                aria-labelledby="heading2"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        We offer a comprehensive selection of engines and components including: complete remanufactured and new engine assemblies, crate engines, long block engines, short block engines, cylinder heads, camshafts, superchargers and turbochargers, intake and exhaust manifolds, engine blocks, fuel injection systems, water pumps, gaskets and seals, and catalytic converters. Whether you need OEM-equivalent engines or performance-grade components, we have options for every budget and requirement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3"
+                                    aria-expanded="false"
+                                    aria-controls="collapse3">
+                                    03. Are your engines new or remanufactured?
+                                </button>
+                            </h2>
+
+                            <div id="collapse3"
+                                class="accordion-collapse collapse"
+                                role="region"
+                                aria-labelledby="heading3"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        We stock both new and remanufactured engines to suit different needs and budgets. Our remanufactured engines are professionally rebuilt to like-new condition with all new gaskets, seals, and wear components replaced. All engines, whether new or remanufactured, undergo rigorous quality testing before shipping and come with our comprehensive up to 1-year warranty. Check product listings for engine condition details.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4"
+                                    aria-expanded="false"
+                                    aria-controls="collapse4">
+                                    04. How long does engine shipping take?
+                                </button>
+                            </h2>
+
+                            <div id="collapse4"
+                                class="accordion-collapse collapse"
+                                role="region"
+                                aria-labelledby="heading4"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        We offer fast shipping to all 48 continental US states with typical delivery times of 3-7 business days depending on your location. We can arrange liftgate delivery at no extra cost to safely unload your engine. Most orders ship within 24 hours of confirmation. For expedited shipping options, contact our team at +1 (888) 370-7485. No return of your old engine is necessary.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5"
+                                    aria-expanded="false"
+                                    aria-controls="collapse5">
+                                    05. What warranty coverage is included with engines?
+                                </button>
+                            </h2>
+
+                            <div id="collapse5"
+                                class="accordion-collapse collapse"
+                                role="region"
+                                aria-labelledby="heading5"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        All our engines come with up to 1-year warranty from the date of purchase—one of the industry's best. This comprehensive warranty covers manufacturing defects and workmanship. Extended warranty options are available for additional coverage. Our warranty applies regardless of mileage driven during the warranty period. For warranty claims or details, contact our support team with your order number and we'll handle it promptly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1s">
+                            <h2 class="accordion-header" id="heading6">
+                                <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapse6"
+                                    aria-expanded="false"
+                                    aria-controls="collapse6">
+                                    06. Do you offer installation services or guidance?
+                                </button>
+                            </h2>
+
+                            <div id="collapse6"
+                                class="accordion-collapse collapse"
+                                role="region"
+                                aria-labelledby="heading6"
+                                data-bs-parent="#accordion">
+
+                                <div class="accordion-body">
+                                    <p>
+                                        We provide comprehensive technical support and installation guidance. While we don't perform installations directly, our expert team can answer installation questions and help troubleshoot any concerns. We recommend having a qualified mechanic install your engine to ensure proper setup. We can connect you with certified installers in your area. Call +1 (888) 370-7485 for installation support.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                    </div>
+                    <!-- FAQ Accordion End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section End -->
+
+    <!-- Final CTA Section Start -->
+    <div class="engine-cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="engine-cta-content text-center wow fadeInUp">
+                        <h2>Ready to Restore Your Engine Performance?</h2>
+                        <p>Browse our extensive inventory of engines and components or speak with one of our experts today.</p>
+                        <div class="engine-cta-buttons">
+                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final CTA Section End -->
+
+<style>
+/* Feature Cards Styling */
+.engine-features {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+.feature-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #074db1;
+    font-size: 24px;
+}
+
+.feature-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.feature-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.feature-card-link {
+    display: inline-flex;
+    align-items: center;
+    color: #074db1;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.feature-card-link:hover {
+    color: #b71c1c;
+}
+
+.feature-card-link span {
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card-link:hover span {
+    transform: translateX(3px);
+}
+
+/* Engine Specs Section */
+.engine-specs {
+    padding: 60px 0;
+}
+
+.spec-item {
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.spec-item:hover {
+    background-color: #f8f8f8;
+}
+
+.spec-icon {
+    font-size: 40px;
+    color: #074db1;
+    margin-bottom: 20px;
+}
+
+.spec-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.spec-item p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+
+/* =========================================
+   Interactive Engine CTA Section
+========================================= */
+.engine-cta-section {
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #074db1 0%, #0b6fe8 55%, #1b8cff 100%);
+    color: #fff;
+}
+
+/* Decorative glow */
+.engine-cta-section::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.10);
+    top: -180px;
+    left: -100px;
+}
+
+.engine-cta-section::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    bottom: -170px;
+    right: -80px;
+}
+
+.engine-cta-content {
+    position: relative;
+    z-index: 2;
+}
+
+.engine-cta-content h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.engine-cta-content p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .engine-cta-section {
+        padding: 60px 20px;
+    }
+
+    .engine-cta-content h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .engine-cta-content p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .engine-cta-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .engine-cta-buttons .btn-default {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+</style>
+
+
+    <!-- Main Footer Start -->
+   <footer class="main-footer dark-section" style="background-color: #ffffff !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <!-- About Footer Start -->
+                    <div class="about-footer">
+                        <!-- Footer Logo Start -->
+                        <div class="footer-logo">
+                            <img src="/frontend/images/my-img/logo/carspartshop-logo.png" alt="">
+                        </div>
+                        <!-- Footer Logo End -->
+
+                        <!-- About Footer Content Start -->
+                        <div class="about-footer-content">
+                            <p>We provide high-quality auto parts and accessories for all types of vehicles. Our mission
+                                is to deliver reliable products, competitive prices,</p>
+                        </div>
+                        <!-- About Footer Content End -->
+
+                        <!-- Footer Social Links Start  -->
+                        <div class="footer-social-links">
+                            <ul>
+                                <li><a href="https://in.pinterest.com/carspartshop/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="https://twitter.com/CarspartShop" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/people/Cars-Part-Shop/100086937047143/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/carspartshop/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Social Links End  -->
+                    </div>
+                    <!-- About Footer End -->
+                </div>
+
+                <div class="col-xl-8">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/contact">Contact Us</a></li>
+                                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                <li><a href="/terms-of-conditions">Terms of Conditions</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Find By Parts</h2>
+                            <ul>
+                                <li><a href="/engine-parts">Engine Parts</a></li>
+                                <li><a href="/transmission-parts">Transmission Parts</a></li>
+                                <li><a href="/suspension-parts">Suspension Parts</a></li>
+                                <li><a href="/electrical-parts">Electrical Parts</a></li>
+                                <li><a href="/exterior-parts">Exterior Parts</a></li>
+                                <li><a href="/interior-parts">Interior Parts</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links footer-newsletter-box">
+                            <h2>Contact Us</h2>
+
+                            <!-- Footer Newsletter Form Start -->
+                            <div class="footer-newsletter-form">
+                                <ul>
+                                    <li><img src="/frontend/images/icon-mail-accent.svg" alt=""><a
+                                            href="mailto:support@carspartshop.com">support@carspartshop.com</a></li>
+                                            <li><img src="/frontend/images/icon-mail-accent.svg" alt=""><a
+                                            href="mailto:sales@carspartshop.com">sales@carspartshop.com</a></li>
+                                    <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
+                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
+                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
+                                            href="tel:+18883707485">+1 (888) 370-7485</a></li>
+                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
+                                            href="tel:+18883709806">+1 (888) 370-9806</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Newsletter Form End -->
+
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+
+                <div class="col-lg-12">
+                    <!-- Footer Copyright Text Start -->
+                    <div class="footer-copyright-text">
+                        <p>Copyright © 2026 carspartshop |  All Rights Reserved.</p>
+                    </div>
+                    <!-- Footer Copyright Text End -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Main Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="/frontend/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="/frontend/js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="/frontend/js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="/frontend/js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="/frontend/js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="/frontend/js/jquery.waypoints.min.js"></script>
+    <script src="/frontend/js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="/frontend/js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="/frontend/js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="/frontend/js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="/frontend/js/gsap.min.js"></script>
+    <script src="/frontend/js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="/frontend/js/SplitText.min.js"></script>
+    <script src="/frontend/js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="/frontend/js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="/frontend/js/function.js"></script>
+
+    <script>
+        // Offer Countdown Timer — restarts fresh on every page load/refresh
+        function initOfferCountdown() {
+            const totalStartSeconds = (1 * 60 * 60) + (45 * 60) + 5; // 01:45:05
+            let remaining = totalStartSeconds;
+
+            const hoursEl = document.getElementById('countdownHours');
+            const minutesEl = document.getElementById('countdownMinutes');
+            const secondsEl = document.getElementById('countdownSeconds');
+
+            if (!hoursEl || !minutesEl || !secondsEl) return;
+
+            function pad(num) {
+                return String(num).padStart(2, '0');
+            }
+
+            function render() {
+                const h = Math.floor(remaining / 3600);
+                const m = Math.floor((remaining % 3600) / 60);
+                const s = remaining % 60;
+                hoursEl.textContent = pad(h);
+                minutesEl.textContent = pad(m);
+                secondsEl.textContent = pad(s);
+            }
+
+            render();
+
+            const timerInterval = setInterval(() => {
+                remaining -= 1;
+                if (remaining <= 0) {
+                    remaining = totalStartSeconds; // loop the offer countdown
+                }
+                render();
+            }, 1000);
+        }
+
+        // Initialize Special Offer Popup
+        function initSpecialOfferPopup() {
+            const popupKey = 'specialOfferPopupShown_' + new Date().toDateString();
+
+            // Check if popup was already shown today
+            if (!localStorage.getItem(popupKey)) {
+                // Show popup after 2 seconds
+                setTimeout(() => {
+                    document.getElementById('specialOfferPopup').classList.add('show');
+                }, 2000);
+
+                // Mark as shown for today
+                localStorage.setItem(popupKey, 'true');
+            }
+        }
+
+        // Close Special Offer Popup (Only with X button)
+        function closeSpecialOfferPopup(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            document.getElementById('specialOfferPopup').classList.remove('show');
+        }
+
+        // Prevent closing when clicking on the popup card itself
+        document.addEventListener('DOMContentLoaded', function() {
+            const popup = document.getElementById('specialOfferPopup');
+
+            // Close only when clicking the overlay background (not the card)
+            popup.addEventListener('click', function(event) {
+                if (event.target === popup) {
+                    // Don't close - user must click X button
+                    event.preventDefault();
+                }
+            });
+
+            // Initialize popup on page load
+            initSpecialOfferPopup();
+
+            // Start the countdown timer (resets fresh on every refresh)
+            initOfferCountdown();
+        });
+    </script>
+</body>
+
+</html>

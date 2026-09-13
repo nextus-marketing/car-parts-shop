@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Wheel Hub & Bearing Assemblies | Front & Rear Wheel Bearings @endsection
+@section('title', 'Used Wheel Hub Assemblies & Bearings | Cars Part Shop')
+@section('meta_description', 'Shop inspected used wheel hub assemblies and wheel bearings. Smooth, noise-free wheel rotation.')
+@section('meta_keywords', 'used wheel hub, wheel hub bearing assembly, front wheel hub, rear wheel hub')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Wheel Hub", "item": "https://carspartshop.com/exterior-parts/wheel-hub" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

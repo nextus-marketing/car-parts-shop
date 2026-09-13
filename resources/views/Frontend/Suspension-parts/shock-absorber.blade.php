@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Gas-Charged Shock Absorbers | Rear Suspension Dampers @endsection
+@section('title', 'Used Shock Absorbers for Sale | Cars Part Shop')
+@section('meta_description', 'Enhance ride comfort with tested used shock absorbers. Great prices on genuine OEM suspension shocks.')
+@section('meta_keywords', 'used shock absorbers, car shocks, OEM shock absorber, suspension shock')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Shock Absorber", "item": "https://carspartshop.com/suspension-parts/shock-absorber" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

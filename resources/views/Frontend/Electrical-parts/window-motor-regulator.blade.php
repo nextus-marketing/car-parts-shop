@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Power Window Motors & Regulator Assemblies | Replacement Door Parts @endsection
+@section('title', 'Used Power Window Motors & Regulators | Cars Part Shop')
+@section('meta_description', 'Find reliable used power window motors and window regulator assemblies for all doors. Tested performance.')
+@section('meta_keywords', 'used window motor, window regulator assembly, power window motor')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Window Motor & Regulator", "item": "https://carspartshop.com/electrical-parts/window-motor-regulator" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 US continental states, packed in heavy-duty flat boxes with zip-tied steel tracks to prevent cable unspooling during transit.</p>
+                        <p>Fast fast shipping across all 48 US continental states, packed in heavy-duty flat boxes with zip-tied steel tracks to prevent cable unspooling during transit.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

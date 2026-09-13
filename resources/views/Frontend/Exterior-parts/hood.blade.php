@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Steel & Aluminum Engine Hoods | Front Hood Panel Replacement @endsection
+@section('title', 'Used Car Hoods & Engine Covers | Cars Part Shop')
+@section('meta_description', 'Buy clean used engine hoods and hood latches for all vehicle makes. Factory steel and aluminum hoods.')
+@section('meta_keywords', 'used car hood, engine hood panel, OEM hood replacement')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Hood", "item": "https://carspartshop.com/exterior-parts/hood" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

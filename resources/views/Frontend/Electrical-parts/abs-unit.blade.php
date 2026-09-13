@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM ABS Units & Hydraulic Control Modules | Anti-Lock Brake Parts @endsection
+@section('title', 'Used ABS Modules & Anti-Lock Brake Units | Cars Part Shop')
+@section('meta_description', 'Buy tested used ABS pump modules and anti-lock brake control units. Restores braking safety and control.')
+@section('meta_keywords', 'used ABS unit, ABS module, anti-lock brake pump, ABS controller')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "ABS Unit", "item": "https://carspartshop.com/electrical-parts/abs-unit" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide delivery across all 48 continental states, packaged securely with protective port caps to keep moisture and contaminants out of hydraulic brake line ports.</p>
+                        <p>Fast fast delivery across all 48 continental states, packaged securely with protective port caps to keep moisture and contaminants out of hydraulic brake line ports.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

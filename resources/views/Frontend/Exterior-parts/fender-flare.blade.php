@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Off-Road Fender Flares | Truck & SUV Wheel Arch Flares @endsection
+@section('title', 'Used Fender Flares & Moldings | Cars Part Shop')
+@section('meta_description', 'Find clean used fender flares, wheel arch trim, and body side moldings for trucks and SUVs.')
+@section('meta_keywords', 'used fender flares, wheel arch flare, body side molding, truck fender flare')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Fender Flare", "item": "https://carspartshop.com/exterior-parts/fender-flare" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

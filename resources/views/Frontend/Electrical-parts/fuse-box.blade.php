@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Fuse Boxes & Power Distribution Modules | Car Electrical Parts @endsection
+@section('title', 'Used Fuse Boxes & Power Distribution Modules | Cars Part Shop')
+@section('meta_description', 'Shop clean tested used fuse boxes and junction boxes. Reliable electrical connections for your car.')
+@section('meta_keywords', 'used fuse box, power distribution box, junction box, engine fuse box')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Fuse Box", "item": "https://carspartshop.com/electrical-parts/fuse-box" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

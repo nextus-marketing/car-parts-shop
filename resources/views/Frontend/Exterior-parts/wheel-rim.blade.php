@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Factory & Alloy Wheel Rims | Car Wheel Replacement Rims @endsection
+@section('title', 'Used Wheels & OEM Rims for Sale | Cars Part Shop')
+@section('meta_description', 'Buy original factory used alloy wheels, aluminum rims, and steel wheels. Inspected for straightness.')
+@section('meta_keywords', 'used wheel rims, OEM alloy wheels, factory rims, aluminum car wheels')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Wheel Rim", "item": "https://carspartshop.com/exterior-parts/wheel-rim" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 US states, individual wheels protected in rim-guard plastic ring covers and heavy double-walled boxes.</p>
+                        <p>Fast fast shipping across all 48 US states, individual wheels protected in rim-guard plastic ring covers and heavy double-walled boxes.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

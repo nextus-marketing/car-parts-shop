@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Front Metal Car Fenders | Quarter Panel & Fender Liners @endsection
+@section('title', 'Used Car Fenders for Sale | Cars Part Shop')
+@section('meta_description', 'Find rust-free used front fenders and quarter panel covers. Direct fit OEM body parts with warranty.')
+@section('meta_keywords', 'used fenders, front fender panel, driver side fender, passenger side fender')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Fenders", "item": "https://carspartshop.com/exterior-parts/fenders" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

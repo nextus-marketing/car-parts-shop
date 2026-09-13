@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM CV Axle Shafts & Rear Axle Assemblies | Drivetrain Replacement Parts @endsection
+@section('title', 'Used Axle Shafts & CV Axles for Sale | Cars Part Shop')
+@section('meta_description', 'Shop reliable used axle shafts and front/rear CV axle assemblies. Quality tested for safe driving.')
+@section('meta_keywords', 'used axle shaft, CV axle assembly, drive axle shaft, OEM axle shaft')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Axle Shaft", "item": "https://carspartshop.com/transmission-parts/axle-shaft" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All front CV axles and rear axle shafts come with up to 1-year warranty protection against CV joint clicking, boot tearing, and spline shear failure.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast dispatch across all 48 continental states, packaged securely with heavy-duty thread caps and end protectors over CV joint splines and threads.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Contact our technical support team at +1 (888) 370-7485 with your vehicle's VIN, engine displacement, and side (Left Driver or Right Passenger) for exact match verification.
+                                        Contact our technical support team at +1 (855) 613-4411 with your vehicle's VIN, engine displacement, and side (Left Driver or Right Passenger) for exact match verification.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Axle Shafts?</h2>
                         <p>Browse our extensive selection of OEM front CV half-shafts and solid rear axle assemblies or speak with a drivetrain specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

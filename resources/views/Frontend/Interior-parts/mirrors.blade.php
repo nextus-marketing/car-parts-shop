@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Interior Rearview Mirrors | Auto-Dimming & Homelink Mirrors @endsection
+@section('title', 'Used Interior Rear View Mirrors | Cars Part Shop')
+@section('meta_description', 'Shop auto-dimming and manual interior rear view mirrors. Tested factory OEM mirrors.')
+@section('meta_keywords', 'used interior mirror, rearview mirror, auto dimming mirror')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Mirrors", "item": "https://carspartshop.com/interior-parts/mirrors" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

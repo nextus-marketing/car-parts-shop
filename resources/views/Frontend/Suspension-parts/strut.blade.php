@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Complete Loaded Strut Assemblies | Front & Rear Suspension Struts @endsection
+@section('title', 'Used Suspension Struts & Assemblies | Cars Part Shop')
+@section('meta_description', 'Find reliable used suspension struts and complete strut tower assemblies. Smooth ride and durable performance.')
+@section('meta_keywords', 'used suspension strut, front strut assembly, rear strut, strut tower')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Strut", "item": "https://carspartshop.com/suspension-parts/strut" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

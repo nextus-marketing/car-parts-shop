@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Interior Sun Visors & Illuminated Vanity Mirror Visor Assemblies @endsection
+@section('title', 'Used Sun Visors - Driver & Passenger | Cars Part Shop')
+@section('meta_description', 'Find clean used sun visors with vanity lights and mirrors. Factory match color options available.')
+@section('meta_keywords', 'used sun visor, driver sun visor, passenger sun visor, illuminated sun visor')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Sun Visor", "item": "https://carspartshop.com/interior-parts/sun-visor" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

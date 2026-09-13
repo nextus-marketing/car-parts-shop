@@ -1,5 +1,21 @@
 @extends('layouts.frontend')
-@section('title') Interior Parts | Car Parts Shop @endsection
+@section('title', 'Used Interior Car Parts & Cabin Accessories | Cars Part Shop')
+@section('meta_description', 'Buy premium OEM used car interior parts including car seats, seat belts, center consoles, sun visors, airbags & steering wheels at discounted prices.')
+@section('meta_keywords', 'used interior car parts, car seats, seat belts, center console, sun visor, rear view mirror, airbags, car steering wheel')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

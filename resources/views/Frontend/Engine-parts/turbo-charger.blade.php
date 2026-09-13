@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') High Performance Turbochargers | OEM & Upgraded Turbo Parts @endsection
+@section('title', 'Used Turbo Chargers for Sale | Cars Part Shop')
+@section('meta_description', 'Shop reliable used turbo chargers for cars, trucks, and SUVs. Guaranteed OEM fitment and quality performance.')
+@section('meta_keywords', 'used turbo charger, turbocharger unit, OEM turbo charger')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Turbo Charger", "item": "https://carspartshop.com/engine-parts/turbo-charger" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All turbochargers are backed by up to 1-year warranty coverage against turbine shaft play, seal leakage, housing cracks, and wastegate actuator defects.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -103,8 +120,8 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 US continental states, packed in heavy-duty molded foam shells to shield delicate turbine oil feeds and wastegate levers.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <p>Fast fast shipping across all 48 US continental states, packed in heavy-duty molded foam shells to shield delicate turbine oil feeds and wastegate levers.</p>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Call our forced induction team at +1 (888) 370-7485 with your vehicle's VIN and OEM turbo part number to ensure 100% exact fitment.
+                                        Call our forced induction team at +1 (855) 613-4411 with your vehicle's VIN and OEM turbo part number to ensure 100% exact fitment.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Turbocharger?</h2>
                         <p>Browse our extensive selection of OEM and high-performance turbochargers or speak with our forced induction experts today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

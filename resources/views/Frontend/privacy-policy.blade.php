@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
-@section('title') Privacy Policy | Car Parts Shop @endsection
+@section('title', 'Privacy Policy - Cars Part Shop')
+@section('meta_description', 'Read the Privacy Policy of Cars Part Shop. Learn how we collect, protect, and use your personal information when purchasing used auto parts.')
+@section('meta_keywords', 'privacy policy, Cars Part Shop privacy, data protection, auto parts shop privacy')
 @section('content')
 
 <style>
@@ -409,7 +411,7 @@
 
                     <div class="definition-item">
                         <div class="definition-term">Company</div>
-                        <div class="definition-description">Carspartshop, located at 1014 Retreat Avenue, Birmingham, Alaska. Referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
+                        <div class="definition-description">Cars Part Shop, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
                     </div>
 
                     <div class="definition-item">
@@ -650,10 +652,6 @@
                     <div class="contact-method">
                         <strong>📞 Phone</strong>
                         <a href="tel:+18556134411">+1 (855) 613-4411</a>
-                    </div>
-                    <div class="contact-method">
-                        <strong>🏢 Address</strong>
-                        <p>1014 Retreat Avenue<br>Birmingham, Alaska</p>
                     </div>
                 </div>
             </div>

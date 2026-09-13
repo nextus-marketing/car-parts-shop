@@ -1,5 +1,21 @@
 @extends('layouts.frontend')
-@section('title') Electrical Parts | Car Parts Shop @endsection
+@section('title', 'Used Electrical Parts & Electronics | Cars Part Shop')
+@section('meta_description', 'High quality tested auto electrical components including alternators, starters, fuse boxes, instrument clusters, headlights, tail lights & ABS modules.')
+@section('meta_keywords', 'used car electrical parts, alternator, starter motor, fuse box, instrument cluster, headlights, tail lights, ABS module')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

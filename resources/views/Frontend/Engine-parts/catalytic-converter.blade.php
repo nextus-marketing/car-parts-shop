@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & High-Flow Catalytic Converters | Direct-Fit Exhaust Parts @endsection
+@section('title', 'Used Catalytic Converters for Sale | Cars Part Shop')
+@section('meta_description', 'Find quality used catalytic converters for emissions compliance and exhaust performance. Inspected OEM replacement parts.')
+@section('meta_keywords', 'used catalytic converter, car catalytic converter, OEM exhaust converter')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Catalytic Converter", "item": "https://carspartshop.com/engine-parts/catalytic-converter" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>Every catalytic converter is backed by up to 1-year warranty coverage against structural defects, internal substrate meltdown, and flange leakage when installed according to guidelines.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast delivery directly to your door or repair shop across 48 continental states, fully padded to shield heavy-gauge exhaust tubing and delicate internal catalyst bricks.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -292,7 +309,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        California, New York, Maine, and Colorado mandate CARB-certified catalytic converters. Check your vehicle's under-hood Emissions Control Information label and contact our fitment hotline at +1 (888) 370-7485 to ensure compliance.
+                                        California, New York, Maine, and Colorado mandate CARB-certified catalytic converters. Check your vehicle's under-hood Emissions Control Information label and contact our fitment hotline at +1 (855) 613-4411 to ensure compliance.
                                     </p>
                                 </div>
                             </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Simply call our experts at +1 (888) 370-7485 with your vehicle's VIN, engine size, and emissions family code to ensure 100% accurate, direct-fit replacement converter ordering.
+                                        Simply call our experts at +1 (855) 613-4411 with your vehicle's VIN, engine size, and emissions family code to ensure 100% accurate, direct-fit replacement converter ordering.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Need a Direct-Fit Catalytic Converter?</h2>
                         <p>Find the exact EPA and CARB compliant catalytic converter for your vehicle today or speak with our emissions specialists.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

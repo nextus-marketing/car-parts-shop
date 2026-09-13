@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') High Performance Camshafts | OEM & Aftermarket Camshaft Replacement @endsection
+@section('title', 'Quality Used Camshafts for Sale | Cars Part Shop')
+@section('meta_description', 'Shop genuine tested used camshafts for domestic and import vehicles. Restore engine timing and performance at low prices.')
+@section('meta_keywords', 'used camshaft, engine camshaft, OEM camshaft replacement, performance camshaft')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Camshaft", "item": "https://carspartshop.com/engine-parts/camshaft" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All camshaft assemblies include up to 1-year warranty protection covering manufacturing defects, lobe wear resistance, and timing gear keyway precision for maximum peace of mind.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -103,8 +120,8 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast regional delivery across the continental United States with anti-corrosion protective wrap and heavy-duty shipping containers to prevent bending or surface rust.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <p>Fast regional delivery with anti-corrosion protective wrap and heavy-duty shipping containers to prevent bending or surface rust.</p>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Provide your vehicle's VIN, engine displacement code (e.g. 5.7L V8, 2.0L Turbo), and year of manufacture to our sales technicians at +1 (888) 370-7485 to guarantee 100% compatible camshaft fitment.
+                                        Provide your vehicle's VIN, engine displacement code (e.g. 5.7L V8, 2.0L Turbo), and year of manufacture to our sales technicians at +1 (855) 613-4411 to guarantee 100% compatible camshaft fitment.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Engine Camshaft?</h2>
                         <p>Browse our extensive selection of OEM and performance camshafts or speak with our engine timing experts today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

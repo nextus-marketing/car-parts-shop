@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') High-Output OEM & Performance Alternators | Charging System Parts @endsection
+@section('title', 'Used Alternators for Sale - Tested OEM | Cars Part Shop')
+@section('meta_description', 'Buy fully tested used alternators for reliable battery charging. Inspected voltage output and fast shipping.')
+@section('meta_keywords', 'used alternator, car alternator, OEM alternator replacement, alternator unit')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Alternator", "item": "https://carspartshop.com/electrical-parts/alternator" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

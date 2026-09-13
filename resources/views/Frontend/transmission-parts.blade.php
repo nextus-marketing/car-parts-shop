@@ -1,5 +1,21 @@
 @extends('layouts.frontend')
-@section('title') Transmission Parts | Car Parts Shop @endsection
+@section('title', 'Used Transmission Parts & Gearboxes | Cars Part Shop')
+@section('meta_description', 'Find top-rated tested used automatic and manual transmissions, drive shafts, axle shafts, cradles & subframes with fast shipping and warranty.')
+@section('meta_keywords', 'used transmission parts, car gearbox, drive shaft, axle shaft, transmission cradle, subframe, floor shifter, OEM transmission')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -58,7 +74,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Transmission Parts Contact Item End -->
@@ -86,7 +102,7 @@
                 <div class="col-xl-5">
                     <!-- Section Button Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="tel:+18883707485" class="btn-black btn-border">Always-On Customer Support</a>
+                        <a href="tel:+18556134411" class="btn-black btn-border">Always-On Customer Support</a>
                     </div>
                     <!-- Section Button End -->
                 </div>
@@ -100,7 +116,7 @@
                         <div class="product-item wow fadeInUp">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/transmission.jpg" alt="">
                                         </figure>
@@ -109,7 +125,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/transmission">Transmission</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                             
                         </div>
@@ -119,7 +135,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/drive_shaft.webp" alt="">
                                         </figure>
@@ -128,7 +144,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/drive-shaft">Drive Shaft</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -137,7 +153,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.4s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/axleshaft.jpg" alt="">
                                         </figure>
@@ -146,7 +162,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/axle-shaft">Axle Shaft</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -155,7 +171,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/floor_shifter.jpg" alt="">
                                         </figure>
@@ -164,7 +180,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/floor-shifter">Floor Shifter</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -173,7 +189,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="0.8s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/cradle.jpg" alt="">
                                         </figure>
@@ -182,7 +198,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/cradle">Cradle</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -191,7 +207,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="1s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/crossmember.jpg" alt="">
                                         </figure>
@@ -200,7 +216,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/crossmember">Crossmember</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -209,7 +225,7 @@
                         <div class="product-item wow fadeInUp" data-wow-delay="1.2s">
                             <div class="product-item-header">
                                 <div class="product-item-image">
-                                    <a href="tel:+18883707485">
+                                    <a href="tel:+18556134411">
                                         <figure>
                                             <img src="/frontend/images/my-img/main/subframe.jpg" alt="">
                                         </figure>
@@ -218,7 +234,7 @@
                             </div>
                             <div class="product-item-content">
                                 <h2><a href="/transmission-parts/subframe">Subframe</a></h2>
-                                <a href="tel:+18883707485" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
+                                <a href="tel:+18556134411" class="btn-default mt-3" contenteditable="false" style="cursor: pointer;">Enquire Now</a>
                             </div>
                         </div>
                         <!-- Product Item End -->
@@ -257,7 +273,7 @@
 
                     <!-- FAQ'S Content Button Start -->
                     <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="tel:+18883707485" class="btn-default">
+                        <a href="tel:+18556134411" class="btn-default">
                             Call Now
                         </a>
                     </div>
@@ -470,8 +486,8 @@
             </div>
 
             <div class="hero-body-btn cta-btn">
-                <a href="tel:+18883707485" class="btn-default btn-border">
-                    +1 (888) 370-7485
+                <a href="tel:+18556134411" class="btn-default btn-border">
+                    +1 (855) 613-4411
                 </a>
             </div>
         </div>

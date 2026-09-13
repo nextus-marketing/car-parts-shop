@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Center Consoles & Armrest Storage Assemblies | Interior Car Trim Parts @endsection
+@section('title', 'Used Center Consoles & Armrests | Cars Part Shop')
+@section('meta_description', 'Shop clean used floor center consoles, armrest storage boxes, and cup holder assemblies.')
+@section('meta_keywords', 'used center console, car armrest, floor console assembly, cup holder console')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Interior Parts", "item": "https://carspartshop.com/interior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Center Console", "item": "https://carspartshop.com/interior-parts/center-console" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

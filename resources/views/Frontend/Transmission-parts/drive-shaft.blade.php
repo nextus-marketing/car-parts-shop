@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Drive Shafts & Propeller Shafts | Two-Piece & Single Piece Driveshaft Assemblies @endsection
+@section('title', 'Used Drive Shafts & Driveshafts for Sale | Cars Part Shop')
+@section('meta_description', 'Find inspected used drive shafts for rear-wheel and all-wheel drive vehicles. Fast shipping and warranty included.')
+@section('meta_keywords', 'used drive shaft, driveshaft assembly, OEM driveshaft, prop shaft')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Drive Shaft", "item": "https://carspartshop.com/transmission-parts/drive-shaft" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -49,7 +66,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                     </div>
@@ -73,7 +90,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All drive shafts undergo dynamic balance testing and include up to 1-year warranty protecting against U-joint seizing, slip yoke binding, and center bearing failure.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -88,7 +105,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast dispatch across all 48 continental states in long custom-length tubes with foam end caps protecting flange yoke faces and U-joint ears during transit.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
             </div>
@@ -146,7 +163,7 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Read common questions about U-joint clunking at launch, driveshaft vibration RPM ranges, center bearing replacement, and fitment.</p>
                         </div>
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +226,7 @@
                                 </button>
                             </h2>
                             <div id="collapse6" class="accordion-collapse collapse" role="region" aria-labelledby="heading6" data-bs-parent="#accordion">
-                                <div class="accordion-body"><p>Call our driveline specialists at +1 (888) 370-7485 with your VIN, wheelbase measurement, and drivetrain type (RWD/4WD) for exact fitment verification.</p></div>
+                                <div class="accordion-body"><p>Call our driveline specialists at +1 (855) 613-4411 with your VIN, wheelbase measurement, and drivetrain type (RWD/4WD) for exact fitment verification.</p></div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +245,7 @@
                         <h2>Ready to Replace Your Drive Shaft?</h2>
                         <p>Browse our complete selection of OEM single-piece and two-piece driveshaft assemblies or speak with a driveline specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

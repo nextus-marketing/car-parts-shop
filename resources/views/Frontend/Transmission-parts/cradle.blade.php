@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Transmission Cradle Subframes | Front Suspension Cradle Parts @endsection
+@section('title', 'Used Engine & Transmission Cradles | Cars Part Shop')
+@section('meta_description', 'Shop sturdy used engine cradles and transmission support frames. Quality checked structural auto parts.')
+@section('meta_keywords', 'used transmission cradle, engine cradle, subframe cradle, front cradle')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Cradle", "item": "https://carspartshop.com/transmission-parts/cradle" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All engine cradles are thoroughly inspected for structural integrity and come backed by up to 1-year warranty coverage protecting against weld seam cracking and rust perforation.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Freight Shipping</h3>
                         <p>Fast LTL freight delivery directly to your body shop or mechanic garage, strapped securely onto heavy wooden pallets with protective edge wrapping.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Contact our team at +1 (888) 370-7485 with your vehicle's VIN, engine size, and transmission type for 100% exact fitment verification.
+                                        Contact our team at +1 (855) 613-4411 with your vehicle's VIN, engine size, and transmission type for 100% exact fitment verification.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Engine Cradle?</h2>
                         <p>Browse our extensive selection of OEM front engine cradles and transmission subframes or speak with a specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

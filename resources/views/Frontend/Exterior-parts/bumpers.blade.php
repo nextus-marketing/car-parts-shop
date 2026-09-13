@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Replacement Car Bumpers | Front & Rear Bumper Covers @endsection
+@section('title', 'Used Bumpers & Bumper Covers - Front & Rear | Cars Part Shop')
+@section('meta_description', 'Shop clean used front and rear bumpers, bumper covers and reinforcement bars. Factory OEM fitment.')
+@section('meta_keywords', 'used bumper, front bumper cover, rear bumper, bumper reinforcement')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Bumpers", "item": "https://carspartshop.com/exterior-parts/bumpers" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

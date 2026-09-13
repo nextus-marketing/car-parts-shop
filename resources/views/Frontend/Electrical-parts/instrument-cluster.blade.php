@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Instrument Clusters & Speedometer Gauge Assemblies | Interior Electrical Parts @endsection
+@section('title', 'Used Instrument Clusters & Speedometers | Cars Part Shop')
+@section('meta_description', 'Buy tested used instrument clusters, speedometers, and dash display panels. Guaranteed working condition.')
+@section('meta_keywords', 'used instrument cluster, speedometer gauge, dash cluster assembly')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Instrument Cluster", "item": "https://carspartshop.com/electrical-parts/instrument-cluster" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 continental states, wrapped in multi-layer anti-static bubble wrap and sturdy box housing to protect front clear lenses.</p>
+                        <p>Fast fast shipping across all 48 continental states, wrapped in multi-layer anti-static bubble wrap and sturdy box housing to protect front clear lenses.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

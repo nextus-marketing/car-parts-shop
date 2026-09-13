@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Cylinder Head | Car Parts Shop @endsection
+@section('title', 'Used Cylinder Heads for Sale - OEM Tested | Cars Part Shop')
+@section('meta_description', 'Find durable used cylinder heads for all vehicle makes and models. Remanufactured and inspected OEM cylinder heads with warranty.')
+@section('meta_keywords', 'used cylinder head, engine cylinder head, OEM cylinder head, reconditioned cylinder head')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Cylinder Head", "item": "https://carspartshop.com/engine-parts/cylinder-head" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All our cylinder heads come with up to 1-year warranty from the date of purchase. We're proud to offer one of the best warranties in the industry and stand behind the quality and precision of every cylinder head we sell.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>We offer fast shipping with liftgate options on every cylinder head we sell. We can ship anywhere in the 48 continental US states with secure packaging to protect your component. Quick delivery means less downtime for your engine rebuild.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -211,7 +228,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Start by gathering your vehicle's information: make, model, year, engine displacement, and current cylinder head part number. You can find this on your vehicle's VIN or in your owner's manual. Verify the valve configuration (OHV, SOHC, DOHC), number of valves, and bolt pattern specifications. Our cylinder head finder tool allows you to input these details and view compatible options. If you're unsure, contact our expert team at +1 (888) 370-7485 and we'll help you identify the perfect head for your engine.
+                                        Start by gathering your vehicle's information: make, model, year, engine displacement, and current cylinder head part number. You can find this on your vehicle's VIN or in your owner's manual. Verify the valve configuration (OHV, SOHC, DOHC), number of valves, and bolt pattern specifications. Our cylinder head finder tool allows you to input these details and view compatible options. If you're unsure, contact our expert team at +1 (855) 613-4411 and we'll help you identify the perfect head for your engine.
                                     </p>
                                 </div>
                             </div>
@@ -292,7 +309,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        We offer fast shipping to all 48 continental US states with typical delivery times of 2-5 business days depending on your location. Cylinder heads ship in custom protective packaging with shock absorption to prevent damage. We can arrange liftgate delivery at no extra cost for safe handling of this heavy component. Most orders ship within 24 hours of confirmation. For expedited shipping options or specialized delivery requirements, contact our team at +1 (888) 370-7485. No return of your old cylinder head is necessary.
+                                        We offer fast shipping to all 48 continental US states with typical delivery times of 2-5 business days depending on your location. Cylinder heads ship in custom protective packaging with shock absorption to prevent damage. We can arrange liftgate delivery at no extra cost for safe handling of this heavy component. Most orders ship within 24 hours of confirmation. For expedited shipping options or specialized delivery requirements, contact our team at +1 (855) 613-4411. No return of your old cylinder head is necessary.
                                     </p>
                                 </div>
                             </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        We provide comprehensive technical support and installation guidance for cylinder head replacement and rebuilding. Our expert team can answer installation questions, help verify bolt torque specifications, advise on gasket selection, and troubleshoot any concerns. We recommend having a qualified mechanic install your cylinder head to ensure proper torque sequences and gasket seating. We can connect you with certified installers in your area who specialize in cylinder head work. Call +1 (888) 370-7485 for technical support and installer referrals.
+                                        We provide comprehensive technical support and installation guidance for cylinder head replacement and rebuilding. Our expert team can answer installation questions, help verify bolt torque specifications, advise on gasket selection, and troubleshoot any concerns. We recommend having a qualified mechanic install your cylinder head to ensure proper torque sequences and gasket seating. We can connect you with certified installers in your area who specialize in cylinder head work. Call +1 (855) 613-4411 for technical support and installer referrals.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Cylinder Head?</h2>
                         <p>Browse our extensive inventory of OEM and performance cylinder heads or speak with one of our experts today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

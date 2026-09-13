@@ -1,5 +1,21 @@
 @extends('layouts.frontend')
-@section('title') Suspension Parts | Car Parts Shop @endsection
+@section('title', 'Used Suspension Parts & Steering Systems | Cars Part Shop')
+@section('meta_description', 'Buy tested used shock absorbers, struts, rack & pinion steering, control arms, power steering pumps, and brake calipers at unbeatable prices.')
+@section('meta_keywords', 'used suspension parts, shock absorber, rack and pinion, control arms, brake calipers, power steering pump, struts')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
     <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

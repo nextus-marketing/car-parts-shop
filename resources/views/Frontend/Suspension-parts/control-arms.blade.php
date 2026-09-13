@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Front & Rear Suspension Control Arms | Upper & Lower Control Arm Parts @endsection
+@section('title', 'Used Control Arms - Upper & Lower | Cars Part Shop')
+@section('meta_description', 'Find quality used upper and lower control arms with ball joints. Inspected for alignment and bushing wear.')
+@section('meta_keywords', 'used control arms, lower control arm, upper control arm, suspension control arm')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Control Arms", "item": "https://carspartshop.com/suspension-parts/control-arms" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

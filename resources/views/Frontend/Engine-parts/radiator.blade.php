@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') Heavy-Duty Automotive Radiators | OEM Engine Cooling Parts @endsection
+@section('title', 'Used Car Radiators for Sale | Cars Part Shop')
+@section('meta_description', 'Shop high-efficiency used car radiators and cooling assemblies. Inspected for leaks and structural integrity.')
+@section('meta_keywords', 'used radiator, car radiator replacement, OEM car radiator, engine cooling radiator')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Engine Parts", "item": "https://carspartshop.com/engine-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Radiator", "item": "https://carspartshop.com/engine-parts/radiator" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -59,7 +76,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                         <!-- Engine Parts Contact Item End -->
@@ -86,7 +103,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All radiators are 100% leak tested prior to shipping and come backed by up to 1-year warranty against core leaks, fin separation, and end tank cracking.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Warranty Card End -->
@@ -104,7 +121,7 @@
                         </div>
                         <h3>Fast Shipping</h3>
                         <p>Fast dispatch nationwide in reinforced double-wall cartons with custom foam corner blocks to prevent fin bending and inlet/outlet pipe fracture.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <!-- Fast Shipping Card End -->
@@ -180,7 +197,7 @@
 
                         <!-- FAQ's Content Button Start -->
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                         <!-- FAQ's Content Button End -->
                     </div>
@@ -238,7 +255,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Automatic transmission vehicles require a radiator with threaded brass/metal line fittings on the side or bottom tank. Manual transmission models usually come capped or without internal cooler lines. Our fitment experts at +1 (888) 370-7485 can confirm exact specs.
+                                        Automatic transmission vehicles require a radiator with threaded brass/metal line fittings on the side or bottom tank. Manual transmission models usually come capped or without internal cooler lines. Our fitment experts at +1 (855) 613-4411 can confirm exact specs.
                                     </p>
                                 </div>
                             </div>
@@ -346,7 +363,7 @@
 
                                 <div class="accordion-body">
                                     <p>
-                                        Provide your vehicle's VIN, engine displacement, and transmission type to our sales team at +1 (888) 370-7485 for exact part verification.
+                                        Provide your vehicle's VIN, engine displacement, and transmission type to our sales team at +1 (855) 613-4411 for exact part verification.
                                     </p>
                                 </div>
                             </div>
@@ -370,7 +387,7 @@
                         <h2>Ready to Replace Your Radiator?</h2>
                         <p>Browse our extensive selection of OEM and performance radiators or speak with our cooling system experts today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>

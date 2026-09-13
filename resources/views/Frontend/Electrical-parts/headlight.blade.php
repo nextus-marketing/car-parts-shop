@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Projector LED Headlight Assemblies | Replacement Headlamps @endsection
+@section('title', 'Used Headlights & Headlamp Assemblies | Cars Part Shop')
+@section('meta_description', 'Shop clear tested used headlight assemblies, halogen, LED and Xenon headlamps. Fast shipping and warranty.')
+@section('meta_keywords', 'used headlights, headlamp assembly, OEM headlight unit, car headlight replacement')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Electrical Parts", "item": "https://carspartshop.com/electrical-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Headlight", "item": "https://carspartshop.com/electrical-parts/headlight" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -103,7 +120,7 @@
                             </svg>
                         </div>
                         <h3>Fast Shipping</h3>
-                        <p>Fast nationwide shipping across all 48 continental states in heavy-duty molded foam boxes to safeguard lens covers and fragile alignment tabs.</p>
+                        <p>Fast fast shipping across all 48 continental states in heavy-duty molded foam boxes to safeguard lens covers and fragile alignment tabs.</p>
                         <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>

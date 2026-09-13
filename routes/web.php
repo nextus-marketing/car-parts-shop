@@ -311,6 +311,14 @@ Route::get('/interior-parts/car-steering', function () {
     return view('frontend.Interior-parts.car-steering');
 });
 
+Route::get('/sitemap.xml', function () {
+    $sitemapPath = public_path('sitemap.xml');
+    if (file_exists($sitemapPath)) {
+        return response()->file($sitemapPath, ['Content-Type' => 'text/xml']);
+    }
+    return response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>' . url('/') . '</loc></url></urlset>', 200, ['Content-Type' => 'text/xml']);
+});
+
 require __DIR__ . '/auth.php';
 require __DIR__ . '/backend.php';
 require __DIR__ . '/frontend.php';

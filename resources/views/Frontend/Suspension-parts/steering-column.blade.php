@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Steering Columns & Tilt Power Steering Column Assemblies | Steering Mechanical Parts @endsection
+@section('title', 'Used Steering Columns for Sale | Cars Part Shop')
+@section('meta_description', 'Shop complete used steering columns with tilt mechanism and ignition housing. Tested OEM assemblies.')
+@section('meta_keywords', 'used steering column, car steering column assembly, tilt steering column')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Suspension Parts", "item": "https://carspartshop.com/suspension-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Steering Column", "item": "https://carspartshop.com/suspension-parts/steering-column" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

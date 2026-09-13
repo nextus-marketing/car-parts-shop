@@ -6,8 +6,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <!-- Page Title -->
-    <title>@yield('title')</title>
+    <meta name="robots" content="@yield('meta_robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1')" />
+    <meta name="google-site-verification" content="0mAr5Enre3Ti2o3LGK8HuVK-Z1iuIV20sO6AuWj7IP0" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>@yield('title', 'Used Car Parts Shop | Classic to Modern Brands - Cars Part Shop')</title>
+    <meta name="description" content="@yield('meta_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 613-4411 for best deals!')" />
+    <meta name="keywords" content="@yield('meta_keywords', 'used car parts, auto parts shop, OEM car parts, used engine, used transmission, car body parts, recycled auto parts, OEM replacement parts, Cars Part Shop')" />
+    <link rel="canonical" href="@yield('canonical', url()->current())" />
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="@yield('og_type', 'website')" />
+    <meta property="og:title" content="@yield('og_title', View::yieldContent('title', 'Used Car Parts Shop | Classic to Modern Brands - Cars Part Shop'))" />
+    <meta property="og:description" content="@yield('og_description', View::yieldContent('meta_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 613-4411 for best deals!'))" />
+    <meta property="og:url" content="@yield('canonical', url()->current())" />
+    <meta property="og:site_name" content="Cars Part Shop" />
+    <meta property="og:image" content="@yield('og_image', asset('frontend/images/my-img/logo/logo.jpg'))" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@CarspartShop" />
+    <meta name="twitter:title" content="@yield('og_title', View::yieldContent('title', 'Used Car Parts Shop | Classic to Modern Brands - Cars Part Shop'))" />
+    <meta name="twitter:description" content="@yield('og_description', View::yieldContent('meta_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 613-4411 for best deals!'))" />
+    <meta name="twitter:image" content="@yield('og_image', asset('frontend/images/my-img/logo/logo.jpg'))" />
+
+    @stack('meta')
+    @stack('schema')
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="/frontend/images/my-img/logo/favicon.jpg">
     <!-- Google Fonts Css-->
@@ -783,9 +808,9 @@
                                     <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
                                             href="tel:+18556134411">+1 (855) 613-4411</a></li>
                                             <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
-                                            href="tel:+18883707485">+1 (888) 370-7485</a></li>
+                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
                                             <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
-                                            href="tel:+18883709806">+1 (888) 370-9806</a></li>
+                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
                                 </ul>
                             </div>
                             <!-- Footer Newsletter Form End -->

@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM & Performance Front Bumper Grilles | Radiator Airflow Grille Insert Parts @endsection
+@section('title', 'Used Front Grilles & Grille Inserts | Cars Part Shop')
+@section('meta_description', 'Shop stylish OEM used front grilles, radiator grilles, and bumper mesh inserts for classic to modern cars.')
+@section('meta_keywords', 'used front grille, radiator grille, chrome grille insert, car grille')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Exterior Parts", "item": "https://carspartshop.com/exterior-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Grilles", "item": "https://carspartshop.com/exterior-parts/grilles" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">

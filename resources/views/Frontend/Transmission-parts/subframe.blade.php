@@ -1,5 +1,22 @@
 @extends('layouts.frontend')
-@section('title') OEM Front & Rear Subframes | Suspension Subframe Assemblies & Crossmember Parts @endsection
+@section('title', 'Used Subframes & K-Members for Sale | Cars Part Shop')
+@section('meta_description', 'Find tested used front and rear subframes for structural alignment and suspension mounting.')
+@section('meta_keywords', 'used subframe, front subframe, rear subframe, K-member, suspension subframe')
+
+@push('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://carspartshop.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Transmission Parts", "item": "https://carspartshop.com/transmission-parts" },
+    { "@type": "ListItem", "position": 3, "name": "Subframe", "item": "https://carspartshop.com/transmission-parts/subframe" }
+  ]
+}
+</script>
+@endpush
+
 @section('content')
 <!-- Page Header Start -->
     <div class="page-header dark-section parallaxie">
@@ -49,7 +66,7 @@
                             </div>
                             <div class="about-us-contact-item-content">
                                 <p>Need Help? Chat With An Expert</p>
-                                <h3><a href="tel:+18883707485">+1 (888) 370-7485</a></h3>
+                                <h3><a href="tel:+18556134411">+1 (855) 613-4411</a></h3>
                             </div>
                         </div>
                     </div>
@@ -73,7 +90,7 @@
                         </div>
                         <h3>Up to 1 Year Warranty</h3>
                         <p>All subframes are inspected for zero weld seam cracking and rust perforation and come backed by up to 1-year warranty protection for mounting hole integrity.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -88,7 +105,7 @@
                         </div>
                         <h3>Fast Freight Shipping</h3>
                         <p>Fast LTL freight delivery to your shop, strapped to wooden pallets and wrapped in heavy-gauge plastic sheeting protecting all mounting surfaces.</p>
-                        <a href="tel:+18883707485" class="feature-card-link">Call Now <span>→</span></a>
+                        <a href="tel:+18556134411" class="feature-card-link">Call Now <span>→</span></a>
                     </div>
                 </div>
             </div>
@@ -146,7 +163,7 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Read common questions about subframe rust assessment, engine support hoist procedures, alignment requirements, and fitment.</p>
                         </div>
                         <div class="faqs-content-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="tel:+18883707485" class="btn-default">Call Now</a>
+                            <a href="tel:+18556134411" class="btn-default">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +226,7 @@
                                 </button>
                             </h2>
                             <div id="collapse6" class="accordion-collapse collapse" role="region" aria-labelledby="heading6" data-bs-parent="#accordion">
-                                <div class="accordion-body"><p>Call our specialist team at +1 (888) 370-7485 with your vehicle's VIN, engine size, and drivetrain type (FWD/AWD/RWD) for exact subframe fitment verification.</p></div>
+                                <div class="accordion-body"><p>Call our specialist team at +1 (855) 613-4411 with your vehicle's VIN, engine size, and drivetrain type (FWD/AWD/RWD) for exact subframe fitment verification.</p></div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +245,7 @@
                         <h2>Ready to Replace Your Subframe?</h2>
                         <p>Browse our extensive selection of OEM front and rear suspension subframe assemblies or speak with a chassis specialist today.</p>
                         <div class="engine-cta-buttons">
-                            <a href="tel:+18883707485" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
+                            <a href="tel:+18556134411" class="btn-default" style="background-color: #ffffffff !important; color: #074db1 !important;">Call Our Experts</a>
                         </div>
                     </div>
                 </div>
