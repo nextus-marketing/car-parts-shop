@@ -805,12 +805,23 @@
                                             href="mailto:support@carspartshop.com">support@carspartshop.com</a></li>
                                             <li><img src="/frontend/images/icon-mail-accent.svg" alt=""><a
                                             href="mailto:sales@carspartshop.com">sales@carspartshop.com</a></li>
-                                    <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
-                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
-                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
-                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
-                                            <li><img src="/frontend/images/icon-phone-accent.svg" alt=""><a
-                                            href="tel:+18556134411">+1 (855) 613-4411</a></li>
+                               
+                                            <li>
+                                                <img src="/frontend/images/icon-phone-accent.svg" alt="">
+                                                <a href="tel:+18556134411">+1 (855) 613-4411</a>
+                                            </li>
+
+                                            <li>
+                                                <img src="/frontend/images/icon-phone-accent.svg" alt="">
+                                                <a href="tel:+18883707485">+1 (888) 370-7485</a>
+                                            </li>
+
+                                            <li>
+                                                <img src="/frontend/images/icon-phone-accent.svg" alt="">
+                                                <a href="tel:+18883709806">+1 (888) 370-9806</a>
+                                            </li>
+
+
                                 </ul>
                             </div>
                             <!-- Footer Newsletter Form End -->
